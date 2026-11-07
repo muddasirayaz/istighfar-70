@@ -1,0 +1,32 @@
+{
+  "page": 16,
+  "blocks": [
+    {
+      "type": "heading",
+      "en": "4. Sūrat al-Ikhlāṣ [7 times]"
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+        "قُلْ هُوَ اللّٰهُ أَحَدٌۚ ۝۱ اَللّٰهُ الصَّمَدُ ۝۲ لَمْ يَلِدْۙ ۵ وَلَمْ يُوْلَدْ ۝۳ وَلَمْ يَكُنْ لَّهٗ كُفُوًا أَحَدٌ ۝۴ ـ سَبْعًا"
+      ],
+      "tr": [
+        "Bismi ‘lLāhi ‘r-Raḥmāni ‘r-Raḥīm.",
+        "Qul Huwa ‘lLāhu Aḥad (1) Allāhu ‘ṣ-Ṣamad (2) Lam yalid wa lam yū lad (3) Wa lam yaku ‘llahū kufuwan aḥad (4)"
+      ],
+      "en": [
+        "In the name of Allah, The Profoundly Merciful, The Continually Merciful",
+        "Say: Allah is One. (1) Allah is Absolute (2) He neither sired, nor was sired (3) And no one could be like Him.(4)"
+      ],
+      "review": "ۚ (small jīm) printed over medallion ۱ is placed after أَحَدٌ. After لَمْ يَلِدْۙ a small unringed superscript ۵ is printed."
+    },
+    {
+      "type": "note",
+      "en": [
+        "[7 times]"
+      ]
+    }
+  ]
+}

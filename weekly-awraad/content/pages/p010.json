@@ -1,0 +1,30 @@
+{
+  "page": 10,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "إِلَى حَضْرَةِ سَيِّدِنَا الشَّيْخِ بَهَاءِ الدِّيْنِ النَّقْشَبَنْدِيِّ وَ سَيِّدِنَا الشَّيْخِ أَحْمَدَ الْبَدَوِيِّ وَ سَيِّدِنَا الشَّيْخِ إِبْرَاهِيْمَ الدُّسُوْقِيِّ وَ سَيِّدِنَا الشَّيْخِ سَعْدِ الدِّيْنِ الْجِبَاوِيِّ رَضِيَ اللّٰهُ تَعَالَى عَنْهُمْ وَ أُصُوْلِهِمْ وَ فُرُوْعِهِمْ وَ أَبْنَاءِ طَرَائِقِهِمْ أَجْمَعِيْنَ <em>الفَاتِحَةُ</em>"
+      ],
+      "tr": [
+        "Ilā Ḥaḍrati Sayyidinā ‘s-Shaykhi Bahā-iddīn Naqshbandiyyi wa Sayyidinā ‘s-Shaykhi Aḥmad ‘l Badawī wa Sayyidinā ‘s-Shaykhi Ibrāhīma ‘dDusūqī wa Sayyidinā ‘s-Shaykhi Sa‘diddīn ‘l-Jibāwīyyi raḍiya ‘lLāhu ta`ālā `anhum wa uṣūlihim wa furū‘ihim wa abnā-i Ṭarā-iqihim ajma`īn. <em>Al Fātiḥa</em>"
+      ],
+      "en": [
+        "To the presence of our master Shaykh Baha’i Din Naqshabandi, our master Shaykh Ahmad Al-Badawi, our master Shaykh Ibrahim Dusuqi and our master Shaykh S’adi Din Al-Jibaawi, may Allah the Exalted be pleased with them, and to their roots, branches and sons of their Spiritual guilds, altogether, the Fatihah…"
+      ],
+      "review": "Red الفَاتِحَةُ: decorative muhmal ticks omitted. The وَ before فُرُوْعِهِمْ ends a line, so spacing there is a line break."
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ـ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ۝۱ الرَّحْمٰنِ الرَّحِيْمِ ۝۲ مٰلِكِ يَوْمِ الدِّيْنِؕ ۝۳ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُؕ ۝۴ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ۝۵ صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْۙ ۵ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّآلِّيْنَ ۝۷"
+      ],
+      "tr": [
+        "Al-Ḥamdu li ‘lLāhi Rabbi ‘l-`Ālamin (1) A’r-Raḥmāni ‘r-Raḥim (2) Māliki Yawmi ‘d-Dīn (3) Iyyāka na`budu wa iyyāka nasta`īn (4) Ihdina ‘ṣ-Ṣirāṭa ‘l-Mustaqīm. Ṣirāṭa ‘lladhina an`amta `alayhim (6), ghayri ‘l-maghḍūbi `alayhim wa la ‘ḍ-ḍā ‘l-līn (7)"
+      ],
+      "review": "After عَلَيْهِمْۙ the source prints a small unringed ۵ (not a medallion); transcribed as plain ۵. Basmala is black inside the red Fātiḥa (left unmarked per brief)."
+    }
+  ]
+}

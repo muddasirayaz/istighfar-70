@@ -1,0 +1,23 @@
+{
+  "page": 12,
+  "blocks": [
+    {
+      "type": "title",
+      "ar": [
+        "اَلْمُسَبَّعَاتُ الْخِضْرِيَّةُ"
+      ],
+      "en": [
+        "Al-Musabba`āt Al-Khiḍriyyah",
+        "The Sevens of Al-Khiḍir (`alayhi ‘s-salām) (Moses’s guide, The Green Prophet)"
+      ]
+    },
+    {
+      "type": "heading",
+      "en": "The Sevens of Al-Khiḍr (`Alayhi ‘s-salām)"
+    },
+    {
+      "type": "image",
+      "src": "artwork-p12"
+    }
+  ]
+}

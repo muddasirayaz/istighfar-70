@@ -1,0 +1,77 @@
+{
+  "page": 111,
+  "blocks": [
+    {
+      "type": "couplet",
+      "ar": [
+        "وَ <em>يَا مَالِكُ</em> مَلِّكْ جَمِيْعَ عَوَالِمِي",
+        "لِرُوْحِيْ وَخَلِّصْ مِنْ سِوَاكَ عُقُوْلَنَا"
+      ],
+      "tr": [
+        "Wa Yā Mālik mallik jamī`a `awālimī",
+        "Li rūḥī wa khalliṣ min siwāka `uqūlanā"
+      ],
+      "en": [
+        "O King, take charge of all that I do – For my soul, purify my thoughts of other than You"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَقَدِّسْ أَيَا قُدُّوْسُ نَفْسِيْ مِنَ الْهَوَى",
+        "وَسَلِّمْ جَمِيْعِيْ <em>يَا سَلَامُ</em> مِنَ الضَّنَا"
+      ],
+      "tr": [
+        "Wa qaddis Ayā Quddūsu nafsī mina ‘l-hawā",
+        "Wa sallim jamī`ī Yā Salāmu mina ‘ḍ-ḍanā"
+      ],
+      "en": [
+        "And sanctify O Holy, my self from whim – And safeguard my entirety, O Safeguarder from exhaustion"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَ يَا مُؤْمِنُ هَبْ لِيْ أَمَانًا وَبَهْجَةً",
+        "وَجَمِّلْ جَنَانِيْ يَا مُهَيْمِنُ بِالْمُنَى"
+      ],
+      "tr": [
+        "Wa Yā Mu’minu hab lī amānan wa bahjatan",
+        "Wa jammil janānī Yā Muhayminu bi ‘l-munā"
+      ],
+      "en": [
+        "O Faithful bestow upon me safety and delight – And beautify my insides O Preserver, with longing"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَجُدْ لِيْ بعِزٍّ يَا عَزِيْزُ وَقُوَّةٍ",
+        "وَبِالْجَبْرِ يَا جَبَّارُ بَدِّدْ عَدُوَّنَا"
+      ],
+      "tr": [
+        "Wa jud lī bi `izzin Yā `Azīzu wa quwwatin",
+        "Wa bi ‘l-jabri Yā Jabbāru baddid `aduwwanā"
+      ],
+      "en": [
+        "Lavish me with honor, O Mighty, and power – With might O Compeller, disperse our enemies"
+      ],
+      "review": "بعِزٍّ: no kasra visible under the bāʾ (translit bi); transcribed without it."
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَكَبِّرْ شُءُوْنِيْ فِيْكَ يَا مُتَكَبِّرُ",
+        "وَيَا خَالِقَ الْأَكْوَانِ بِالْفَيْضِ عُمَّنَا"
+      ],
+      "tr": [
+        "Wa kabbir shu’ūnī fīka Yā Mutakabbiru",
+        "Wa Yā Khāliqa ‘l-akwāni bi ‘l-fayḍi `ummanā"
+      ],
+      "en": [
+        "Enhance my affairs with You O Supreme – O Creator of Existences, inundate us with abundance"
+      ],
+      "review": "شُءُوْنِيْ: printed with a single wāw and the hamza (with ḍamma) floating above the shīn–wāw join, encoded with standalone ء as on p115."
+    }
+  ]
+}

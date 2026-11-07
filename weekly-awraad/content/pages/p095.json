@@ -1,0 +1,44 @@
+{
+  "page": 95,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ أَفْضَلِ الرُّسُلِ الْكِرَامِ عَلَيْهِ وَعَلَيْهِمْ أَفْضَلُ الصَّلَاةِ وَ السَّلَامِ عَلَى مَمَرِّ اللَّيَالِيْ وَالْأَيَّامِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Afḍali ‘r-Rusuli ‘l-Kirāmi `alayhi wa `alayhim afḍalu ‘ṣ-Ṣalāti wa ‘s-Salāmi `alā mamarri ‘l-layālī wa ‘l-ayyām."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the best of noble Messengers, upon him and them, the best prayer and peace in the elapsing of nights and days!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ صَلَاةً تُنَجِّيْنَا بِهَا مِنَ الشُّكُوْكِ وَ الْأَوْهَامِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Ṣalātan tunajjīnā bi hā mina sh-shukūki wa ‘l-awhām."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family a prayer saving us from doubts and delusions!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ الْأَئِمَّةِ الْأَعْلَامِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Al-A’immati ‘l-a`lām."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the distinguished Masters!"
+      ]
+    }
+  ]
+}

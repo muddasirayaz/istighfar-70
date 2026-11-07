@@ -1,0 +1,180 @@
+{
+  "page": 105,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ يَا اَللّٰهُ ﷻ"
+      ]
+    },
+    {
+      "type": "names",
+      "items": [
+        {
+          "ar": "يَا رَحْمٰنُ ﷻ",
+          "tr": "Yā Raḥmānu",
+          "en": "O Merciful"
+        },
+        {
+          "ar": "يَا رَحِيمُ ﷻ",
+          "tr": "Yā Raḥīmu",
+          "en": "O Especially"
+        },
+        {
+          "ar": "يَا مَلِكُ ﷻ",
+          "tr": "Yā Maliku",
+          "en": "O Sovereign"
+        },
+        {
+          "ar": "يَا قُدُّوسُ ﷻ",
+          "tr": "Yā Quddūsu",
+          "en": "O Holy"
+        },
+        {
+          "ar": "يَا سَلَامُ ﷻ",
+          "tr": "Yā Salāmu",
+          "en": "O Safeguarder"
+        },
+        {
+          "ar": "يَا مُؤْمِنُ ﷻ",
+          "tr": "Yā Mu’minu",
+          "en": "O Faithful"
+        },
+        {
+          "ar": "يَا مُهَيْمِنُ ﷻ",
+          "tr": "Yā Muhayminu",
+          "en": "O Protector"
+        },
+        {
+          "ar": "يَا عَزِيزُ ﷻ",
+          "tr": "Yā `Azīzu",
+          "en": "O Mighty"
+        },
+        {
+          "ar": "يَا جَبَّارُ ﷻ",
+          "tr": "Yā Jabbāru",
+          "en": "O Compeller"
+        },
+        {
+          "ar": "يَا مُتَكَبِّرُ ﷻ",
+          "tr": "Yā Mutakabbiru",
+          "en": "O Supreme"
+        },
+        {
+          "ar": "يَا خَالِقُ ﷻ",
+          "tr": "Yā Khāliqu",
+          "en": "O Creator"
+        },
+        {
+          "ar": "يَا بَارِئُ ﷻ",
+          "tr": "Yā Bāri’u",
+          "en": "O Fashioner"
+        },
+        {
+          "ar": "يَا مُصَوِّرُ ﷻ",
+          "tr": "Yā Muṣawwiru",
+          "en": "O Former"
+        },
+        {
+          "ar": "يَا غَفَّارُ ﷻ",
+          "tr": "Yā Ghaffāru",
+          "en": "O Forgiver"
+        },
+        {
+          "ar": "يَا اَللّٰهُ ﷻ"
+        },
+        {
+          "ar": "يَا قَهَّارُ ﷻ",
+          "tr": "Yā Qahhāru",
+          "en": "O Subduer"
+        },
+        {
+          "ar": "يَا وَهَّابُ ﷻ",
+          "tr": "Yā Wahhābu",
+          "en": "O Bestower"
+        },
+        {
+          "ar": "يَا رَزَّاقُ ﷻ",
+          "tr": "Yā Razzāqu",
+          "en": "O Provider"
+        },
+        {
+          "ar": "يَا فَتَّاحُ ﷻ",
+          "tr": "Yā Fattāḥu",
+          "en": "O Opener"
+        },
+        {
+          "ar": "يَا عَلِيمُ ﷻ",
+          "tr": "Yā `Alīmu",
+          "en": "O All Knowing"
+        },
+        {
+          "ar": "يَا قَابِضُ ﷻ",
+          "tr": "Yā Qābiḍu",
+          "en": "O Grasper"
+        },
+        {
+          "ar": "يَا بَاسِطُ ﷻ",
+          "tr": "Yā Bāsiṭu",
+          "en": "O Extender"
+        },
+        {
+          "ar": "يَا خَافِضُ ﷻ",
+          "tr": "Yā Khāfiḍu",
+          "en": "O Abaser"
+        },
+        {
+          "ar": "يَا رَافِعُ ﷻ",
+          "tr": "Yā Rāfi`u",
+          "en": "O Exalter"
+        },
+        {
+          "ar": "يَا مُعِزُّ ﷻ",
+          "tr": "Yā Mu`izzu",
+          "en": "O Honorer"
+        },
+        {
+          "ar": "يَا مُذِلُّ ﷻ",
+          "tr": "Yā Mudhillu",
+          "en": "O Degrader"
+        },
+        {
+          "ar": "يَا سَمِيعُ ﷻ",
+          "tr": "Yā Samī`u",
+          "en": "O All Hearing"
+        },
+        {
+          "ar": "يَا بَصِيرُ ﷻ",
+          "tr": "Yā Baṣīru",
+          "en": "O All Seeing"
+        },
+        {
+          "ar": "يَا حَكَمُ ﷻ",
+          "tr": "Yā Ḥakamu",
+          "en": "O Supreme Judge"
+        },
+        {
+          "ar": "يَا عَدْلُ ﷻ",
+          "tr": "Yā `Adlu",
+          "en": "O Just"
+        },
+        {
+          "ar": "يَا لَطِيفُ ﷻ",
+          "tr": "Yā Laṭīfu",
+          "en": "O Gentle"
+        },
+        {
+          "ar": "يَا خَبِيرُ ﷻ",
+          "tr": "Yā Khabīru",
+          "en": "O Aware"
+        },
+        {
+          "ar": "يَا حَلِيمُ ﷻ",
+          "tr": "Yā Ḥalīmu",
+          "en": "O Forbearing"
+        }
+      ]
+    }
+  ]
+}

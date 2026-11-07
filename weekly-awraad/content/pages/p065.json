@@ -1,0 +1,31 @@
+{
+  "page": 65,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَصَحَابَتِهِ وَعَلَى كُلِّ مَنْ صَدَّقَ بِرِسَالَتِهِ وَالْطُفْ بِنَا وَبِوَالِدِيْنَا، وَبِسَائِرِ الْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ، فِي الْحَيَاةِ وَبَعْدَ الْمَمَاتِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa Ṣaḥābatihī wa `alā kulli man ṣaddaqa bi risālatihī, Wa ‘lṭuf binā wa bi wālidīnā wa bi sā’iri ‘l-muslimīna wa ‘l-muslimāti, Fī ‘l-ḥayāti wa ba`da ‘l-mamāt."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family, Companions and everyone who affirms his Messengership and be gentle with us and our parents and the remaining Muslim men and women in this life and after death!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ عَدَدَ كُلِّ حَادِثٍ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, `Adada kulli ḥādith."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family the number of every occurrence!"
+      ]
+    }
+  ]
+}

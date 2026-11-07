@@ -1,0 +1,39 @@
+{
+  "page": 135,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "سُبْحٰنَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَۚ ۝۱۸۰ وَ سَلٰمٌ عَلَى الْمُرْسَلِيْنَۚ ۝۱۸۱ وَ الْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ ۝۱۸۲"
+      ],
+      "tr": [
+        "Subhāna Rabbi ka Rabbi ‘l-`Izzati ammā yaṣifūna, wa salāmun `alā ‘l-Mursalīna wa ‘l-ḥamdu li-’lLāhi Rabbi ‘l-`Ālamīn."
+      ],
+      "en": [
+        "Glory to your Lord, Lord of Honor, beyond what they attribute, Peace be upon the Messengers, and Praise be to Allah, Lord of the Worlds!"
+      ],
+      "review": "A small ع (rukūʿ sign) printed above medallion ۱۸۲ is omitted: no codepoint for it in the allowed set."
+    },
+    {
+      "type": "note",
+      "en": [
+        "Sura Saffaat Verse 180-182"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> إِنِّيْ أَسْأَلُكَ لِيْ وَلَهُمْ مِنْ كُلِّ خَيْرٍ سَأَلَكَ مِنْهُ سَيِّدُنَا مُحَمَّدٌ صَلَّى اللّٰهُ عَلَيْهِ وَعَلَى أٰلِهٖ وَسَلَّمَ نَبِيُّكَ وَرَسُوْلُكَ ، وَ أَعُوْذُبِكَ اللّٰهُمَّ مِنْ كُلِّ شَرٍّ اسْتَعَاذَكَ مِنْهُ سَيِّدُنَا مُحَمَّدٌ صَلَّى اللّٰهُ عَلَيْهِ وَ عَلَى أٰلِهٖ وَسَلَّمَ نَبِيُّكَ وَ رَسُوْلُكَ ."
+      ],
+      "tr": [
+        "Allāhumma innī as’alu ka lī wa lahum min kulli khayrin sa’ala ka min hu Sayyidunā Muḥammadun ṣallā ‘llāhu `alayhi wa `alā Ālihī wa sallama Nabiyyuka wa Rasūluka, Wa a`ūdhu bi ka ‘lLāhumma min kulli sharrini ‘sta`ādha ka min hu Sayyidunā Muḥammadun ṣallā ‘llāhu `alayhi wa `alā Ālihī wa sallama Nabiyyuka wa Rasūluk."
+      ],
+      "en": [
+        "<em>O Allah</em>, I surely ask You, for both me and them, every good our Master Muḥammad asked from You, Allah's prayers and peace be upon him and his Family, Your Prophet and Your Messenger! And I seek refuge with You, O Allah, from every evil our Master Muḥammad sought refuge with You from, Allah's prayers and peace be upon him, Your Prophet and Your Messenger."
+      ],
+      "review": "شَرٍّ: printed as شَرّ with a separate kasra + small nūn (nūn quṭnī) below before اسْتَعَاذَكَ; rendered as tanwīn kasra. أٰلِهٖ: hamza with a standing alif above and a vertical stroke below the hā, read as standing kasra. A stray vertical stroke under the first وَعَلَى ignored. أَعُوْذُبِكَ is printed joined. Final dot sits alone on the next line."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "page": 118,
+  "blocks": [
+    {
+      "type": "couplet",
+      "ar": [
+        "وَقَدِّمْ أُمُوْرِيْ <em>يَا مُقَدِّمُ</em> هَيْبَةً",
+        "وَأَخِّرْ عِدَانَا <em>يَا مُؤَخِّرُ</em> بِالْعَنَا"
+      ],
+      "tr": [
+        "Wa qaddim umūrī Yā Muqaddimu haybatan",
+        "Wa akhkhir `idānā Yā Mu’akhkhiru bi ‘l-`anā"
+      ],
+      "en": [
+        "Expedite my affair, O Expeditor, prestigiously – Delay our enemies O Delayer, with obstacles"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "<em>وَيَا أَوَّلُ</em> مِنْ غَيْرِ بَدْءٍ <em>وَأٰخِرٌ</em>",
+        "بِغَيْرِ انْتِهَاءٍ أَنْتَ فِي الْكُلِّ حَسْبُنَا"
+      ],
+      "tr": [
+        "Wa Yā Awwalu min ghayri bad’in wa ākhirun",
+        "Bi ghayri ‘ntihā’in anta fī ‘l-kulli ḥasbunā"
+      ],
+      "en": [
+        "O Eternal, without beginning, Everlasting – Without end, You suffice us in"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "<em>وَيَا ظَاهِرًا</em> فِيْ كُلِّ شَيْءٍ شُءُوْنُهٗ",
+        "<em>وَيَا بَاطِنًا</em> بِالْغَيْبِ لَا زِلْتَ مُحْسِنَا"
+      ],
+      "tr": [
+        "Wa Yā Ẓāhiran fī kulli shay’in shu’ūnuhū",
+        "Wa Yā Bātinan bi ‘l-ghaybi lā zilta muḥsinā"
+      ],
+      "en": [
+        "O Manifest in the affairs of everything – O Hidden unseen, You never cease being good to us"
+      ],
+      "review": "شُءُوْنُهٗ: single wāw with the hamza floating above the shīn–wāw join, encoded with standalone ء as on p115; the mark on the final hāʾ is small and could be a sukūn rather than an inverted ḍamma."
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "<em>وَيَا وَالِيًا</em> لَسْنَا لِغَيْرِكَ نَنْتَمِيْ",
+        "فَبِالنَّصْرِ <em>يَا مُتَعَالِيًا</em> كُنْ مُعِزَّنَا"
+      ],
+      "tr": [
+        "Wa yā wāliyan lasnā li ghayrika nantamī",
+        "Fa bi ‘n-naṣri Yā Muta`āliyan kun mu`izzanā"
+      ],
+      "en": [
+        "O Governor, we associate ourselves with no other – So with help, O Most High, be our fortifier"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "<em>وَيَا بَرُّ يَا تَوَّابُ</em> جُدْ لِيْ بِتَوْبَةٍ",
+        "نَصُوْحٍ بِهَا تَمْحُوْ عَظَائِمَ جُرْمِنَا"
+      ],
+      "tr": [
+        "Wa Yā Barru Yā Tawwābu jud lī bi tawbatin",
+        "Naṣūhin bi hā tamḥū `aẓā’ima jurminā"
+      ],
+      "en": [
+        "O Beneficent, O Accepter of Repentance, bless me with Repentance Sincere, eradicate thereby our enormities"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "page": 18,
+  "blocks": [
+    {
+      "type": "heading",
+      "en": "6. Āyat al-Kursī [7 times]"
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+        "اَللّٰهُ لَآ إِلٰهَ إِلَّا هُوَۚ اَلْحَيُّ الْقَيُّوْمُۚ ۵ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌؕ لَهٗ مَا فِي السَّمٰوٰتِ وَمَا فِي الْأَرْضِؕ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ إِلَّا بِإِذْنِهٖؕ يَعْلَمُ مَا بَيْنَ أَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْأَرْضَۚ وَلَا يَئُوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ ۝۲۵۵ ـ سَبْعًا"
+      ],
+      "tr": [
+        "Bismi ‘lLāhi ‘r-Raḥmāni ‘r-Raḥīm.",
+        "Allāhu Lā ilāha illā Huwa ‘l-Ḥayyu ‘l-Qayyum. Lā ta’khudhu hu sinatuw wa lā nawm. Lahū mā fi ‘s-Samāwāti wamā fi ‘l-Arḍ. Man dhā ‘ladhī yashfa`u `indahū illā bi idhnihī. Ya`lamu mā bayna aydīhim wa mā khalfa hum wa lā yuḥīṭūna bi shay’i ‘m-min `Ilmihī illā bi mā shā’. Wasi`a Kursiyyuhu ‘s-Samāwāti wa ‘l-Arḍ, wa lā ya’ūduhū ḥifẓuhumā, wa Huwa ‘l-`Aliyyu ‘l-`Aẓīm."
+      ],
+      "en": [
+        "In the name of Allah, The Profoundly Merciful, The Continually Merciful",
+        "Allah, there is no god but He, the Living, Self-Subsisting. Neither sleep nor slumber overtakes Him. He possesses all that is in the heavens and earth. Who intercedes with Him without His permission? He knows what is before them and after them and they grasp nothing of His knowledge but what He wills. His throne spans the heavens and earth and it tires Him not maintaining them. And He is the Great, the High! ."
+      ],
+      "review": "After الْقَيُّوْمُۚ a small unringed ۵ is printed under the ج mark. يَئُوْدُهٗ: hamza seat/vowel read from a small glyph."
+    },
+    {
+      "type": "note",
+      "en": [
+        "[7 times]"
+      ]
+    }
+  ]
+}

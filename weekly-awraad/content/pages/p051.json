@@ -1,0 +1,31 @@
+{
+  "page": 51,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الَّذِيْ أَرْسَلْتَهُ رَحْمَةً لِلْعَالَمِيْنَ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Alladhī arsaltahū Raḥmata ‘l li ‘l-Ālamīn."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the one You sent as a mercy to the Worlds!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَعَلَى سَائِرِ أَنْبِيَآئِكَ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa `alā sā’iri anbiyā’ik."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family and all Your Prophets!"
+      ]
+    }
+  ]
+}

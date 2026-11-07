@@ -1,0 +1,32 @@
+{
+  "page": 59,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَأَدْخِلْنَا حَظِيْرَةَ الْقُدْسِ فِيْ جُمْلَةِ الْأَحْبَابِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa adkhil nā haẓīrata ‘l-qudsi fī jumlati ‘l-aḥbāb."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and enter us in the Sanctuary among the most beloved group!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ سَائِرِ الْأَنْبِيَاءِ وَ الْأَصْفِيَاءِ وَ الْأٓلِ وَ الْأَصْحَابِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa `alā sā’iri ‘l-Anbiyā’i wa ‘l-Aṣfiyā’i wa ‘l-Āli wa ‘l-Aṣḥāb."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and all the Prophets, Purified, Folk and Companions!"
+      ],
+      "review": "Source prints أٰلِهٖ سَائِرِ with no وَعَلَى before سَائِرِ although the transliteration has 'Wa `alā sā’iri'; transcribed as printed. الْأٓلِ: lam-alif printed with sukūn, hamza and madda; transcribed as أٓ."
+    }
+  ]
+}

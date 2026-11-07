@@ -1,0 +1,31 @@
+{
+  "page": 136,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "لَآ إِلٰهَ إِلَّا اللّٰهُ مُحَمَّدٌ رَسُوْلُ اللّٰهِ حَقًّا وَصِدْقًا ، وَ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى جَمِيْعِ الْأَنْبِيَاءِ وَ الْمُرْسَلِيْنَ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ ."
+      ],
+      "tr": [
+        "Lā ilāha illa ‘lLāhu Muḥammadu ‘r-Rasūlu ‘lLāhi ḥaqqan wa ṣidqan, Wa ṣalli wa sallim `alā jamī`i ‘l-Anbiyā’i wa ‘l-Mursalīna wa ‘l-ḥamdu li ‘lLāhi Rabbi ‘l-`Ālamīn."
+      ],
+      "en": [
+        "There is no god but Allah, Muḥammad is the Messenger of Allah, really and truly, and prayers, salutations and blessings be upon all the Prophets and Messengers, and praise Allah, Lord of the Worlds!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> أَبْلِغْ رُوْحَ سَيِّدِنَا مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَعَلَى أٰلِهٖ مِنِّيْ تَحِيَّةً وَ سَلَامًا – ثلاثا"
+      ],
+      "tr": [
+        "Allāhumma abligh rūḥa Sayyidinā Muḥammadin ṣallā ‘llāhu `alayhi wa `alā Ālihī minnī taḥiyyatan wa salāmā"
+      ],
+      "en": [
+        "<em>O Allah</em>, convey greetings and salutations to the soul of Muḥammad, Allah's prayers be upon him and his Family, from me! <em>[3 times]</em>"
+      ]
+    }
+  ]
+}

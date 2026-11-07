@@ -1,0 +1,30 @@
+{
+  "page": 5,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "إِلَى حَضْرَةِ سَيِّدِنَا السُّلْطَانِ الْإِمَامِ عَلِيِّ ابْنِ مُوْسَى الرِّضَا وَ أُصُوْلِهِ وَفُرُوْعِهِ وَ أٰلِ بَيْتِهِ أَجْمَعِيْنَ <em>الفَاتِحَةُ</em>"
+      ],
+      "tr": [
+        "Ilā Ḥaḍrati Sayyidinā ‘s Sultāni ‘l Imāmi `Aliyyi ‘Bni Mūsā ‘r-Riḍā wa uṣūlihi wa furū‘ihi wa Āli baytihi ajma`īn. <em>Al Fātiḥa</em>"
+      ],
+      "en": [
+        "To the presence of our master, the Ruler, Imam Ali bin Musa Al-Ridha, his roots and branches and his household, altogether… the Fatihah…"
+      ],
+      "review": "Small red الفَاتِحَةُ: vowels read from a tiny glyph (decorative muhmal ticks omitted)."
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ـ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ۝۱ الرَّحْمٰنِ الرَّحِيْمِ ۝۲ مٰلِكِ يَوْمِ الدِّيْنِؕ ۝۳ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُؕ ۝۴ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ۝۵ صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْۙ ۵ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّآلِّيْنَ ۝۷"
+      ],
+      "tr": [
+        "Al-Ḥamdu li ‘lLāhi Rabbi ‘l-`Ālamin (1) A’r-Raḥmāni ‘r-Raḥim (2) Māliki Yawmi ‘d-Dīn (3) Iyyāka na`budu wa iyyāka nasta`īn (4) Ihdina ‘ṣ-Ṣirāṭa ‘l-Mustaqīm. Ṣirāṭa ‘lladhina an`amta `alayhim (6), ghayri ‘l-maghḍūbi `alayhim wa la ‘ḍ-ḍā ‘l-līn (7)"
+      ],
+      "review": "After عَلَيْهِمْۙ the source prints a small unringed ۵ (not a medallion); transcribed as plain ۵. Basmala is black inside the red Fātiḥa (left unmarked per brief)."
+    }
+  ]
+}

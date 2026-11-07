@@ -1,0 +1,19 @@
+{
+  "page": 32,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللَّهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَ عَلَى أٰلِهِ شَجَرَةِ الْأَصْلِ النُّوْرَانِيَّةِ ، وَأَفْضَلِالْخَلِيْقَةِ الْإِنْسَانِيَّةِ ، وَأَشْرَفِ الصُّوْرَةِ الْجِسْمَانِيَّةِ ،وَمَعْدِنِ الْأَسْرَارِ الرَّبَّانِيَّةِ ، وَخَزَائِنِ الْعُلُوْمِ الْاِصْطِفَائِيَّةِ ،"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Shajarati ‘l-Aṣli ‘n-Nūrāniyyati, Wa Afḍali ‘l-Khalīqati ‘l-Insāniyyati, Wa Ashrafi ‘ṣ-Ṣūrati ‘l-Jismāniyyati, Wa Ma`dini ‘l-Asrāri ‘r-Rabbāniyyati, Wa Khazā’ini ‘l-`Ulūmi ‘l-Iṣṭifā’iyyati,"
+      ],
+      "en": [
+        "O Allah send prayers upon, salute and bless our Master and Supporter Muḥammad  and his Family, the tree of brilliant roots, best of human nature, noblest physical form, fountain of Divine secrets, treasure house of choicest disciplines,"
+      ],
+      "review": "وَأَفْضَلِالْخَلِيْقَةِ is printed run together with no space (kept as printed)."
+    }
+  ]
+}

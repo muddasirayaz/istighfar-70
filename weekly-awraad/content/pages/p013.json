@@ -1,0 +1,32 @@
+{
+  "page": 13,
+  "blocks": [
+    {
+      "type": "heading",
+      "en": "1. Sūrat al-Fātiḥah [7 times]"
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+        "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ۝۱ الرَّحْمٰنِ الرَّحِيْمِ ۝۲ مٰلِكِ يَوْمِ الدِّيْنِؕ ۝۳ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُؕ ۝۴ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ۝۵ صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْۙ ۵ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّآلِّيْنَ ۝۷ ـ سَبْعًا"
+      ],
+      "tr": [
+        "Bismi ‘lLāhi ‘r-Raḥmāni ‘r-Raḥīm",
+        "Al-Ḥamdu li ‘lLāhi Rabbi ‘l-`Ālamin (1) A’r-Raḥmāni ‘r-Raḥim (2) Māliki Yawmi ‘d-Dīn (3) Iyyāka na`budu wa iyyāka nasta`īn (4) Ihdina ‘ṣ-Ṣirāṭa ‘l-Mustaqīm. Ṣirāṭa ‘lladhina an`amta `alayhim (6), ghayri ‘l-maghḍūbi `alayhim wa la ‘ḍ-ḍā ‘l-līn (7)"
+      ],
+      "en": [
+        "In the name of Allah, The Profoundly Merciful, The Continually Merciful",
+        "Praise Allah, Lord of the Worlds.(1) The Profoundly Merciful, The Continually Merciful.(2) Owner of the Day of Doctrine {Judgement}(3) You Alone we worship and You Alone we beseech(4) Show us the straight path(5) The path of those you favour (6), not those with wrath upon them nor those astray"
+      ],
+      "review": "After عَلَيْهِمْۙ a small unringed superscript ۵ is printed (not a medallion)."
+    },
+    {
+      "type": "note",
+      "en": [
+        "[7 times]"
+      ]
+    }
+  ]
+}

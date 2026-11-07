@@ -202,11 +202,11 @@ def contents_for(section, pages):
     entries = []
     a, b = section['pages']
     for n in range(a, b + 1):
-        for blk in pages[n]:
-            if blk['type'] == 'heading':
-                entries.append((n, plain(blk['en'])))
-            elif blk['type'] == 'title' and n != a and blk.get('en'):
-                entries.append((n, plain(' '.join(blk['en']))))
+        titles = [plain(blk['en'][0]) for blk in pages[n] if blk['type'] == 'title' and blk.get('en') and n != a]
+        if titles:
+            entries.append((n, titles[0]))
+            continue
+        entries.extend((n, plain(blk['en'])) for blk in pages[n] if blk['type'] == 'heading')
     if len(entries) < 2:
         return ''
     items = ''.join('<li><a href="#p%d"><span>%s</span><span class="toc-page">%d</span></a></li>' % (n, html.escape(t), n)

@@ -172,15 +172,18 @@ button { font: inherit; color: inherit; }
 .b-couplet .ar { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2.5rem; font-size: calc(clamp(1.35rem, 1rem + 1.6vw, 1.85rem) * var(--ar-scale)); line-height: 2.1; }
 .b-couplet .ar span:first-child { text-align: right; }
 .b-couplet .ar span:last-child { text-align: left; }
-.b-couplet .tr { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2.5rem; margin-top: .3rem; }
-.b-couplet .tr span:last-child { text-align: right; }
+/* The transliteration grid runs right-to-left like the Arabic, so each half sits under its own hemistich. */
+.b-couplet .tr { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2.5rem; margin-top: .3rem; direction: rtl; }
+.b-couplet .tr span { direction: ltr; unicode-bidi: isolate; text-align: right; }
+.b-couplet .tr span:last-child { text-align: left; }
 .b-couplet .en { text-align: center; margin-top: .35rem; }
 .b-couplet + .b-couplet { padding-top: 1.25rem; border-top: 1px dashed var(--gold-faint); }
 @media (max-width: 600px) {
   .b-couplet .ar, .b-couplet .tr { grid-template-columns: 1fr; }
   .b-couplet .ar span:first-child { text-align: right; }
   .b-couplet .ar span:last-child { text-align: left; padding-left: 1.5rem; }
-  .b-couplet .tr span:last-child { text-align: left; padding-left: 1.25rem; }
+  .b-couplet .tr span { text-align: left; }
+  .b-couplet .tr span:last-child { padding-left: 1.25rem; }
 }
 
 /* Layer toggles */
@@ -190,7 +193,7 @@ button { font: inherit; color: inherit; }
 
 /* Recitation counter */
 .counter {
-  position: absolute; top: -.4rem; right: -.4rem;
+  position: relative; margin: 1rem auto 0;
   width: 3rem; height: 3rem; padding: 0; border: 0; border-radius: 50%;
   display: grid; place-items: center; background: var(--surface); box-shadow: var(--shadow);
   cursor: pointer; font-family: Inter, system-ui, sans-serif; -webkit-tap-highlight-color: transparent;
@@ -206,7 +209,6 @@ button { font: inherit; color: inherit; }
 .counter.done .counter-of { color: var(--gold-soft); }
 .counter.pulse { animation: pulse .5s ease; }
 @keyframes pulse { 50% { transform: scale(1.12); } }
-.kind-quran .counter { top: -1.1rem; right: -1.1rem; }
 .no-js .counter, html:not(.js) .counter { display: none; }
 
 /* In-section contents */
@@ -249,6 +251,7 @@ button { font: inherit; color: inherit; }
   animation: sheen 9s ease-in-out infinite; }
 @keyframes sheen { 0%, 100% { background-position: 100% 0; } 50% { background-position: 0 0; } }
 .hero-cover .b-image--emblem img { max-width: min(20rem, 80%); }
+.hero-cover .folio + .folio .b-image--emblem { display: none; }
 
 .resume { max-width: var(--measure); margin: .5rem auto 0; padding: 0 1rem; }
 .resume a { display: block; padding: .9rem 1.1rem; border-radius: 999px; background: var(--green); color: var(--surface); text-decoration: none; text-align: center; font: 500 .92rem/1.3 Inter, system-ui, sans-serif; box-shadow: var(--shadow); }

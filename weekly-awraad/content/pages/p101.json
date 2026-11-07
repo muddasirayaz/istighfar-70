@@ -1,0 +1,44 @@
+{
+  "page": 101,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ فِي الْخَلَا وَالْمَلَا ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Fi ‘l-khalā wa ‘l-malā."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family, in solitude and with company!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ سَادَاتِ أَهْلِ الْعُلَا ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Sādāti ahli ‘l-`ulā."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family, leaders of the highest party!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَ اكْشِفْ لَنَا عَنْ مَقَامَاتِ الْوَلَاءِ وَ الْاِسْتِجْلَاءِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa ‘kshif lanā `an maqāmāti ‘l-walā i wa ‘l-istijlā."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and unveil us to the processions of allegiance and elucidation!"
+      ]
+    }
+  ]
+}

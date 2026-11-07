@@ -1,0 +1,32 @@
+{
+  "page": 61,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ السَّارِيْ سِرُّهُ فِيْ سَائِرِ الْكَائِنَاتِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, as-Sārī sirruhū fī sā’iri ‘l-kā’ināt."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family whose secret penetrates the depths of existence!"
+      ],
+      "review": "سِرُّهُ: mark over final hā drawn like an ordinary ḍamma (not clearly inverted), transcribed as ḍamma."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَكَفِّرْ بِهَا عَنَّا السَّيِّئَاتِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa kaffir bi hā `an na ‘s-sayyi’āt."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and thereby hide our faults!"
+      ]
+    }
+  ]
+}

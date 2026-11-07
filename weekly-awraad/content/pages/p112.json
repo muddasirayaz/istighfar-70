@@ -1,0 +1,78 @@
+{
+  "page": 112,
+  "blocks": [
+    {
+      "type": "couplet",
+      "ar": [
+        "<em>وَ يَا بَارِئُ</em> احْفَظْنَا مِنَ الْخَلْقِ كُلِّهِمْ",
+        "بفَضْلِكَ وَاكْشِفْ <em>يَا مُصَوِّرُ</em> كَرْبَنَا"
+      ],
+      "tr": [
+        "Wa Yā Bāri’u ‘ḥfaẓnā min ‘l-khalqi kullihim",
+        "Bi faḍlika wa ‘kshif Yā Muṣawwiru karbanā"
+      ],
+      "en": [
+        "By Your grace, and remove our worries – O Fashioner, protect us from creation, all of it"
+      ],
+      "review": "بفَضْلِكَ: no kasra visible under the bāʾ (translit bi); transcribed without it."
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَبِالْغَفْرِ <em>يَا غَفَّارُ</em> مَحِّصْ ذُنُوْبَنَا",
+        "وَبِالْقَهْرِ <em>يَا قَهَّارُ</em> اقْهَرْ عَدُوَّنَا"
+      ],
+      "tr": [
+        "Wa bi ‘l-ghafri Yā Ghaffāru maḥḥiṣ dhunūbanā",
+        "Wa bi ‘l-qahri Yā Qahhāru ‘qhar `aduwwanā"
+      ],
+      "en": [
+        "With forgiveness, O Forgiver, eradicate our sins – With force O Subduer, vanquish our enemies"
+      ],
+      "review": "In غَفَّارُ and قَهَّارُ the final رُ is printed brown, not blue; <em> covers the whole name."
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَ هَبْ لِيْ أَيَا <em>وَهَّابُ</em> عِلْمًا وَحِكْمَةً",
+        "وَلِلرِّزْقِ <em>يَا رَزَّاقُ</em> وَسِّعْ وَجُدْ لَنَا"
+      ],
+      "tr": [
+        "Wa hab lī Ayā Wahhābu `ilman wa ḥikmatan",
+        "Wa li ‘r-rizqi Yā Razzāqu wassi` wa jud lanā"
+      ],
+      "en": [
+        "Provision, O Provider, expand and improve for us – Bestow me, O Bestower, with knowledge and wisdom"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَبِالْفَتْحِ <em>يَا فَتَّاحُ</em> عَجِّلْ تكَرُّمًا",
+        "وَ بِالْعِلْمِ نَوِّرْ <em>يَا عَلِيْمُ</em> قُلُوْبَنَا"
+      ],
+      "tr": [
+        "Wa bi ‘l-fatḥi Yā Fattāḥu `ajjil takarruma",
+        "Wa bi ‘l-`ilmi nawwir Yā `Alīmu qulūbanā"
+      ],
+      "en": [
+        "And with knowledge illuminate, O All-Knowing, our hearts – With opening, O Opener, expedite with deference"
+      ],
+      "review": "تكَرُّمًا: no fatḥa visible on the initial tāʾ; transcribed as printed."
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "<em>وَيَا قَابِضُ</em> اقْبِضْنَا عَلَى خَيْرِ حَالَةٍ",
+        "<em>وَيَا بَاسِطَ</em> الْأَرْزَاقِ بَسْطًا لِرِزْقِنَا"
+      ],
+      "tr": [
+        "Wa Yā Qābiḍu ‘qbiḍnā `alā khayri ḥālatin",
+        "Wa Yā Bāsiṭu ‘l-arzāqi basṭan li rizqinā"
+      ],
+      "en": [
+        "O Extender of Provisions, extend our provision – O Grasper, seize us in the best of states"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "page": 124,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "فَاعْلَمْ أَنَّهٗ لَآ إِلٰهَ إِلَّا اللّٰهُ مِائة مرّة"
+      ],
+      "tr": [
+        "Fa ‘`lam anna hū lā ilāha ilLa ‘lLāhu (x 100)"
+      ],
+      "en": [
+        "So know, there is no god but <em>Allah!</em>"
+      ]
+    },
+    {
+      "type": "note",
+      "en": [
+        "Sura Muhammed Verse 19"
+      ]
+    }
+  ]
+}

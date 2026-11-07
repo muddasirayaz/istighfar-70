@@ -21,12 +21,13 @@ ARABIC_FONTS = ('Al_Mushaf', 'noorehidayat', 'AlQalamQuranMajeed', '_PDMS_Saleem
 ARABIC_RANGES = ((0x0600, 0x06FF), (0x0750, 0x077F), (0x08A0, 0x08FF), (0xFB50, 0xFDFF), (0xFE70, 0xFEFF))
 HARAKAT = set('ًٌٍَُِّْٰٖٗ')
 ALLOWED_SYMBOLS = set('ﷺﷻ')
+# Every block may also carry `review`: a transcriber's note on an uncertain reading, kept for proof-readers.
 SCHEMA = {
     'title': ({'ar', 'en'}, set()),
     'heading': ({'en', 'ar'}, {'en'}),
-    'passage': ({'kind', 'ar', 'tr', 'en', 'review'}, {'kind'}),
+    'passage': ({'kind', 'ar', 'tr', 'en'}, {'kind'}),
     'names': ({'items'}, {'items'}),
-    'couplet': ({'ar', 'tr', 'en', 'review'}, set()),
+    'couplet': ({'ar', 'tr', 'en'}, set()),
     'note': ({'en'}, {'en'}),
     'image': ({'src'}, {'src'}),
 }
@@ -36,7 +37,8 @@ TAG = re.compile(r'</?em>')
 KNOWN_ABSENT = {
     1: (collections.Counter('WEEKLYAWRAAD'), 'a second, hidden copy of the cover title sits behind the visible one'),
     2: (collections.Counter('WEEKLYAWRAAD'), 'a second, hidden copy of the cover title sits behind the visible one'),
-    100: (collections.Counter('[]'), 'brackets printed within the Arabic line, kept in the ar field'),
+    **{n: (collections.Counter('WEEKLYAWRAAD'), 'the section card holds a hidden copy of the cover title')
+       for n in (53, 104, 108, 126, 140)},
 }
 
 
@@ -81,7 +83,7 @@ def check_schema(page, blocks, problems):
         if allowed is None:
             problems.append('%s: unknown type %r' % (where, b.get('type')))
             continue
-        fields = set(b) - {'type'}
+        fields = set(b) - {'type', 'review'}
         if fields - allowed:
             problems.append('%s: unexpected fields %s' % (where, sorted(fields - allowed)))
         if required - fields:
@@ -92,9 +94,7 @@ def check_schema(page, blocks, problems):
             problems.append('%s: unknown image %r' % (where, b.get('src')))
         if b['type'] == 'couplet' and len(b.get('ar', [])) not in (0, 2):
             problems.append('%s: couplet needs two Arabic hemistichs' % where)
-        for s in list(latin_strings(b)) + list(arabic_strings(b)):
-            pass
-        raw = json.dumps(b, ensure_ascii=False)
+        raw = json.dumps({k: v for k, v in b.items() if k != 'review'}, ensure_ascii=False)
         if raw.count('<em>') != raw.count('</em>') or re.search(r'<(?!/?em>)', raw):
             problems.append('%s: unbalanced or unsupported markup' % where)
 
@@ -118,7 +118,8 @@ def check_arabic(page, blocks, problems):
 
 
 def main():
-    files = sorted(CONTENT.glob('p*.json'))
+    content = Path(sys.argv[1]) if len(sys.argv) > 1 else CONTENT
+    files = sorted(content.glob('p*.json'))
     problems = []
     pages = {}
     for f in files:
@@ -140,19 +141,38 @@ def main():
     if pdfplumber:
         with pdfplumber.open(PDF) as pdf:
             for n, blocks in sorted(pages.items()):
-                page = pdf.pages[n - 1]
-                want = latin_multiset(''.join(
-                    c['text'] for c in page.chars
-                    if not c['fontname'].split('+')[-1].startswith(ARABIC_FONTS) and not (c['x0'] < 175 and c['top'] > 465)))
-                got = latin_multiset(''.join(latin_strings(blocks)))
-                absent = KNOWN_ABSENT.get(n, (collections.Counter(), ''))[0]
-                if want - got != absent or got - want:
-                    problems.append('p%03d Latin text differs from PDF: missing %s, extra %s' % (n, dict(want - got), dict(got - want)))
+                problems.extend(check_latin(n, blocks, pdf.pages[n - 1]))
 
     for p in problems:
         print(p)
     print('%d pages checked, %d problems' % (len(pages), len(problems)))
     sys.exit(1 if problems else 0)
+
+
+def is_footer_label(c):
+    """The gold 'WEEKLY AWRAAD' label in the logo box at the foot of every page."""
+    return c['x0'] < 175 and c['top'] > 465 and c['fontname'].split('+')[-1].startswith('Calibri-Bold')
+
+
+def check_latin(n, blocks, page):
+    """Every Latin character the PDF prints must appear in the content, and nothing may be added.
+
+    Punctuation the source prints inside an Arabic line (a dash before سَبْعًا, brackets) lives in the `ar`
+    field, so Latin characters found in `ar` strings count too. The one tolerated addition is '.', which
+    stands for the line-end diamonds the PDF draws in an Arabic font.
+    """
+    want = latin_multiset(''.join(
+        c['text'] for c in page.chars
+        if not c['fontname'].split('+')[-1].startswith(ARABIC_FONTS) and not is_footer_label(c)))
+    in_fields = latin_multiset(''.join(latin_strings(blocks)))
+    in_arabic = latin_multiset(''.join(TAG.sub('', s) for s in arabic_strings(blocks)))
+    got = in_fields + in_arabic
+    absent = KNOWN_ABSENT.get(n, (collections.Counter(), ''))[0]
+    missing, extra = want - got, got - want
+    tolerated = collections.Counter({'.': min(extra['.'], in_arabic['.'])})
+    if missing != absent or extra - tolerated or in_fields - want:
+        return ['p%03d Latin text differs from PDF: missing %s, extra %s' % (n, dict(missing - absent), dict(extra - tolerated))]
+    return []
 
 
 if __name__ == '__main__':

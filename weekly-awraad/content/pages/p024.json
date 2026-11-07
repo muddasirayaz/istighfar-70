@@ -1,0 +1,44 @@
+{
+  "page": 24,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ فِي الْآخِرِيْنَ ،"
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `ala Ālihī fī ‘l-Ākhirīna,"
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family among those of new,"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ فِيْ كُلِّ وَقْتٍ وَحِيْنٍ ،"
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `ala Ālihī fī kulli Waqtin wa Ḥīnin,"
+      ],
+      "en": [
+        "and send prayers upon, and bless our Master Muḥammad and his Family in every instant and interval,"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ فِي الْمَلَإِ الْأَعْلَى إِلَى يَوْمِ الدِّيْنِ ،"
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `ala Ālihī, fī ‘l-Mala’i ‘l-A`lā ilā Yawmi ‘d-Dīn,"
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family in the Highest Assembly until the Day of Judgement,"
+      ]
+    }
+  ]
+}

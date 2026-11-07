@@ -1,0 +1,31 @@
+{
+  "page": 23,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ صَلَاةً تَلِيْقُ بِجَمَالِهِ وَجَلَالِهِ وَ كَمَالِهِ ، وَصَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ وَ أَذِقْنَا بِالصَّلَاةِ عَلَيْهِ لَذَّةَ وِصَالِهِ <em>.</em>"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Ṣalātan talīqu bi Jamālihī wa Jalālihī wa Kamālih. Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī wa adhiqnā bi ‘ṣ-Ṣalāti `alayhi ladhdhata wiṣālih."
+      ],
+      "en": [
+        "<em>O Allah,</em> send prayers upon, salute and bless our Master Muḥammad and his Family a prayer that befits his beauty, his splendor and his wholesomeness, and send prayers upon, salute and bless our Master Muḥammad and his Family and let us taste by sending prayers upon him the delight of communing with him!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ فِي الْأَوَّلِيْنَ ،"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, fī ‘l-Awwalīna,"
+      ],
+      "en": [
+        "<em>O Allah</em>, send prayers upon, salute and bless our Master Muḥammad and his Family among those of old,"
+      ]
+    }
+  ]
+}

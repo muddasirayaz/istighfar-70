@@ -1,0 +1,45 @@
+{
+  "page": 60,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الَّذِيْ جَاءَ بِالْأٓيَاتِ الْبَيِّنَاتِ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Alladhī jā’a bi ‘l-āyāti ‘l-bayyināt."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family the one who came with indisputable verses!"
+      ],
+      "review": "بِالْأٓيَاتِ: lam-alif printed with sukūn, hamza and madda; transcribed as أٓ."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الْمُؤَيَّدِ بِجَلَائِلِ الْمُعْجِزَاتِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, al-Mu’ayyadi bi jalā’ili ‘l-mu`jizāt."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the supported by immense miracles!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الْقَائِلِ إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, al-Qā’ili innama ‘l-a‘mālu bi ‘n-niyyāt."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the coiner of “Deeds are but by intention”."
+      ]
+    }
+  ]
+}
