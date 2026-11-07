@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / 'content' / 'pages'
 PDF = ROOT / 'Weekly-Awraad-Original.pdf'
-ARABIC_FONTS = ('Al_Mushaf', 'noorehidayat', 'AlQalamQuranMajeed', '_PDMS_Saleem_QuranFont', 'DiwanMishafiGold', 'CambriaMath')
+ARABIC_FONTS = ('Al_Mushaf', 'noorehidayat', 'AlQalamQuranMajeed', '_PDMS_Saleem_QuranFont', 'DiwanMishafiGold')
 ARABIC_RANGES = ((0x0600, 0x06FF), (0x0750, 0x077F), (0x08A0, 0x08FF), (0xFB50, 0xFDFF), (0xFE70, 0xFEFF))
 HARAKAT = set('ًٌٍَُِّْٰٖٗ')
 ALLOWED_SYMBOLS = set('ﷺﷻ')
@@ -32,6 +32,12 @@ SCHEMA = {
 }
 IMAGES = {'dome', 'emblem', 'artwork-p12', 'artwork-p139'}
 TAG = re.compile(r'</?em>')
+# Latin characters the PDF holds that are deliberately not in the Latin fields, each verified against the page image.
+KNOWN_ABSENT = {
+    1: (collections.Counter('WEEKLYAWRAAD'), 'a second, hidden copy of the cover title sits behind the visible one'),
+    2: (collections.Counter('WEEKLYAWRAAD'), 'a second, hidden copy of the cover title sits behind the visible one'),
+    100: (collections.Counter('[]'), 'brackets printed within the Arabic line, kept in the ar field'),
+}
 
 
 def is_arabic(ch):
@@ -139,7 +145,8 @@ def main():
                     c['text'] for c in page.chars
                     if not c['fontname'].split('+')[-1].startswith(ARABIC_FONTS) and not (c['x0'] < 175 and c['top'] > 465)))
                 got = latin_multiset(''.join(latin_strings(blocks)))
-                if want != got:
+                absent = KNOWN_ABSENT.get(n, (collections.Counter(), ''))[0]
+                if want - got != absent or got - want:
                     problems.append('p%03d Latin text differs from PDF: missing %s, extra %s' % (n, dict(want - got), dict(got - want)))
 
     for p in problems:
