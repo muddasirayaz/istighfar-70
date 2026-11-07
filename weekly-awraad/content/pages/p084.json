@@ -1,0 +1,45 @@
+{
+  "page": 84,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ وَ انْزَعْ مِنْ قُلُوْبِنَا حُبَّ الشَّهَوَاتِ وَ الْأَغْرَاضِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wanza` min qulūbinā ḥubba sh-shahawāti wa ‘l-aghrāḍ."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and remove from our hearts love of base desires and prejudice!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ الْمُطَهَّرَةِ قُلُوْبُهُمْ مِنَ الْأَمْرَاضِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Al-Muṭahharati qulūbuhum mina ‘l-amrāḍ."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family whose hearts are purified of all sickness!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ <em>وَعَلَى أٰلِ سَيِّدِنَا مُحَمَّدِۨ</em> الْهَادِيْ إِلَى سَوَاءِ الصِّرَاطِ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Āli Sayyidinā Muḥammadin, Al-Hādī ilā sawā’i ṣ-Ṣirāt."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and the Family of our Master Muḥammad, the guide to the proper path!"
+      ],
+      "review": "وَعَلَى أٰلِ سَيِّدِنَا مُحَمَّدِ is printed in white (wrapped in em). After it a small detached white nūn (nūn quṭnī, tanwīn marker) is printed; transcribed as U+06E8 small high noon after the single kasra."
+    }
+  ]
+}

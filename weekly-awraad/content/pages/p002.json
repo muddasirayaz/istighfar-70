@@ -1,0 +1,19 @@
+{
+  "page": 2,
+  "blocks": [
+    {
+      "type": "image",
+      "src": "dome"
+    },
+    {
+      "type": "image",
+      "src": "emblem"
+    },
+    {
+      "type": "title",
+      "en": [
+        "WEEKLY AWRAAD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "page": 44,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ صَلَاةً تُنَجِّيْنَا بِهَا مِنْ جَمِيْعِ الْأَهْوَالِ وَ الْأٓفَاتِ ، وَتَقْضِي لَنَا بِهَا جَمِيْعَ الْحَاجَاتِ ، وَتُطَهِّرُنَا بِهَا مِنْ جَمِيْعِ السَّيِّئَاتِ ، وَ تَرْفَعُنَا بِهَا عِنْدَكَ أَعْلَى الدَّرَجَاتِ، وَتُبَلِّغُنَا بِهَا أَقْصَى الْغَايَاتِ مِنْ جَمِيْعِ الْخَيْرَاتِ فِي الْحَيَاةِ وَبَعْدَ الْمَمَاتِ ـ <em>ثلاثا</em>"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wasallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Ṣalātan tunajjīnā bi hā min jamī`i ‘l-ahwāli wa ‘l-āfāti, Wa taqḍī lanā bi hā jamī`a ‘l-ḥājāti, Wa tuṭahhirunā bi hā min jamī` ‘s-sayyi’āti, Wa tarfa`unā bi hā `indaka a`la ‘d-darajāti, Wa tuballighunā bi hā aqṣā ‘l-ghāyāti, Min jamī‘ ‘l-khayrāti fī ‘l-ḥayāti wa ba`da ‘l-mamāt."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family, a prayer rescuing us from all terrors and pests, fulfilling for us all needs, purifying us from from all evils, raising us to You the highest degrees, making us reach the utmost limits of all good in this life and after death! – <em>3 TIMES</em>"
+      ],
+      "review": "الْأٓفَاتِ: marks over the lām-alif are crowded; read as hamza on alif plus madda (U+0653). أٰلِهٖ: a short vertical stroke hanging below the hā (into the next line) read as standing kasra. ثلاثا is printed in white in a small box below the Arabic with no visible vowel marks; wrapped in em as the boxed count. وَتَقْضِي / فِي: no sukūn visible on the final yā."
+    }
+  ]
+}

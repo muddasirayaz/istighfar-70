@@ -1,0 +1,44 @@
+{
+  "page": 102,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَ سَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَكُلِّ نَبِيٍّ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa kulli Nabiyy."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family and every Prophet!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَكُلِّ مَلَكٍ وَوَلِيٍّ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī wa kulli Malakin wa Waliyy."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and every Angel and Saint!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَكُلِّ عَالِمٍ وَتَقِيٍّ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī wa kulli `ālimin wa taqiyy."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and every scholar and pious person!"
+      ]
+    }
+  ]
+}

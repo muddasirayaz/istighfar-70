@@ -1,0 +1,44 @@
+{
+  "page": 67,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الْمَخْصُوْصِ بِالْإِسْرَاءِ وَالْمِعْرَاجِ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Al-Makhṣūṣi bi ‘l-Isrā’i wa ‘l-M`irāj."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family the one selected for the Night Journey and Ascent!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَتَوِّجْنَا مِنَ الْقَبُوْلِ أَبْهَجَ تَاجٍ ،"
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa tawwijnā min ‘l-qabūli abhaja tāj."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and crown us with acceptance with the most joyous crown,"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "صَلَّى اللّٰهُ عَلَيْهِ وَعَلَى أٰلِهٖ الْمَحْفُوْظِيْنَ مِنَ الْإِعْوِجَاجِ ."
+      ],
+      "tr": [
+        "Ṣallā Allāhu `alayhi wa `alā Ālihī, al-maḥfūẓīna min al-i`wijāj."
+      ],
+      "en": [
+        "Allah's prayers upon him and his Family, who are safeguarded from deviations!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "page": 21,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ عَدَدَ إِنْعَامِ اللّٰهِ وَكَمَا يَلِيْقُ بِكَمَالِهِ <em>.</em>"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, `adada in`āmi ‘lLāhi wa kamā yalīqu bi kamālih."
+      ],
+      "en": [
+        "<em>O Allah,</em> send prayers upon, salute and bless our Master Muḥammad and his Family to the number of Allah's bounties and as befits his entirety!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى أَسْعَدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ عَدَدَ إِنْعَامِ اللّٰهِ وَكَمَا يَلِيْقُ بِكَمَالِهِ <em>.</em>"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā As`adinā Muḥammadin wa `alā ālihī, `adada in`āmi ‘lLāhi wa kamā yalīqu bi kamālih."
+      ],
+      "en": [
+        "<em>O Allah</em>, send prayers upon, salute and bless our Excellency Muḥammad and his Family to the number of Allah's bounties and as befits his entirety!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى نُوْرِ الْهُدَى مُحَمَّدٍ وَعَلَى أٰلِهِ عَدَدَ إِنْعَامِ اللّٰهِ وَكَمَا يَلِيْقُ بِكَمَالِهِ <em>.</em>"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Nūri ‘l-Hudā Muḥammadin wa `alā ālihī, `adada in`āmi ‘lLāhi wa kamā yalīqu bi kamālih."
+      ],
+      "en": [
+        "<em>O Allah</em>, send prayers upon, salute and bless the Light of Guidance Muḥammad and his Family to the number of Allah's bounties and as befits his entirety!"
+      ]
+    }
+  ]
+}

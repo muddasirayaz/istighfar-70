@@ -1,0 +1,52 @@
+{
+  "page": 123,
+  "blocks": [
+    {
+      "type": "couplet",
+      "ar": [
+        "وَ صَلِّ عَلَى الْأَمْلَاكِ وَالرُّسْلِ كُلِّهِمْ",
+        "وَآلِهِمُوْ وَالصَّحْبِ جَمْعًا وَعُمَّنَا"
+      ],
+      "tr": [
+        "Wa ṣalli `alā ‘l-Amlāki wa ‘r-Rusli kullihim",
+        "Wa Ālihimū wa ṣ-Ṣaḥbi jam`an wa `ummanā"
+      ],
+      "en": [
+        "And Prayers upon the Angels and Messengers, all of them – Their Family and Companions altogether, and include us."
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَ سَلِّمْ عَلَيْهِمْ كُلَّمَا قَالَ قَائِلٌ",
+        "تَبَارَكْتَ <em>يَا اَللّٰهُ</em> رَبِّيْ لَكَ الثَّنَا"
+      ],
+      "tr": [
+        "Wa sallim `alayhim kullamā qāla qā’ilun",
+        "Tabārakta Yā Allāhu Rabbī laka ‘th-Thanā"
+      ],
+      "en": [
+        "And Salute them everytime a speaker speaks –Blessed are You, O Allah, my Lord, to You is all praise!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "اَللّٰهُمَّ إِنَّكَ قُلْتَ وَقَوْلُكَ الْحَقُّ فِيْ مُحْكَمِ كِتَابِكَ الْمُنْزَلِ، عَلَى لِسَانِ نَبِيِّكَ الْمُرْسَلِ،، وَلِلّٰهِ الْأَسْمَآءُ الْحُسْنَى فَادْعُوْهُ بِهَاۖ ،، فَدَعَوْنَاكَ لِجَلْبِ الْخَيْرِ وَدَفْعِ الشَّرِّ كَمَا أَمَرْتَنَا فَاسْتَجِبْ لَنَا يَا مَوْلَانَا كَمَا وَعَدْتَّنَا إِنَّكَ لَا تُخْلِفُ الْمِيْعَادَ."
+      ],
+      "tr": [
+        "Allāhumma innaka qulta wa qawluka ‘l-Ḥaqqu, fī muḥkami Kitābi ka ‘l-Munzali, `alā lisāni Nabiyyika ‘l-Mursali, wa li ‘lLāhi ‘l-Asmā’u ‘l-Ḥusnā fa ‘d`ūhu bi hā. Fa da`awnāka li jalbi ‘l-khayri wa daf`i ‘sh-sharri kamā amartanā, fa ‘stajib lanā Yā Mawlānā kamā wa `adtanā, innaka lā tukhlifu ‘l-mī`ād."
+      ],
+      "en": [
+        "O Allah, You surely said, and Your speech is Truth, in the decisive verses of Your revealed book, upon the tongue of Your Messenger Prophet, \"To Allah belong the most beautiful names, so call upon Him with them,\" so we called upon You to procure good and repel evil, as You have ordered us, so respond to us, O our Master as You promised us, surely You never renege on promises!"
+      ]
+    },
+    {
+      "type": "note",
+      "en": [
+        "Sura Al’Araf Verse 180"
+      ]
+    }
+  ]
+}

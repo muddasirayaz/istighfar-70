@@ -1,0 +1,45 @@
+{
+  "page": 47,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِه فِي الدُّنْيَا وَالْأٓخِرَةِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Fi ‘d-dunyā wa ’l-Ākhirah."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family, in this life and the hereafter!"
+      ],
+      "review": "وَالْأٓخِرَةِ: marks over the lām-alif read as hamza plus madda (U+0653)."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِه وَخَلِّقْنَا بِأَخْلَاقِهِ الطَّاهِرَةِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, wa khalliqnā bi akhlāqihi ‘ṭ-ṭāhirah."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family, and imbue us with his pure character!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِه وَأَعْطِهِ الْوَسِيْلَةَ وَالْفَضِيْلَةَ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa a`ṭihī ‘l-Wasīlata wa ‘l-Faḍīlah."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family, and grant him the means (of intercession) and virtuous distinction!"
+      ]
+    }
+  ]
+}

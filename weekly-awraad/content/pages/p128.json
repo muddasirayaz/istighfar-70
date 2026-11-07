@@ -1,0 +1,63 @@
+{
+  "page": 128,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ -"
+      ],
+      "tr": [
+        "Bismi ‘lLāhi ‘r-Raḥmāni ‘r-Raḥīm."
+      ],
+      "en": [
+        "In the name of Allah, The Profoundly Merciful, The Continually Merciful."
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "رَبِّ أَعُوْذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِيْنِۙ ۝۹۷ وَ أَعُوْذُ بِكَ رَبِّ أَنْ يَّحْضُرُوْنِ ۝۹۸"
+      ],
+      "tr": [
+        "Rabbi a`ūdhu bi ka min hamazāti ‘sh-Shayātīni, Wa a`ūdhu bi ka Rabbi a ‘yyaḥḍurūn."
+      ],
+      "en": [
+        "My Lord, I seek refuge with You from the temptations of devils, I seek refuge in You, my Lord, lest they appear!"
+      ]
+    },
+    {
+      "type": "note",
+      "en": [
+        "SuraMu’minun Verse97,98"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَ أَعُوْذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَ أَعُوْذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ، وَ أَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ ـ ثلاثا"
+      ],
+      "tr": [
+        "Allāhumma innī a`ūdhu bi ka min ‘l-hammi wa ‘l-ḥazani, Wa a`ūdhu bi ka min ‘l-`ajzi wa ‘l-kasali, Wa a`ūdhu bi ka min ‘l-jubni wa ‘l-bukhli, Wa a`ūdhu bi ka min ghalabati ‘d-dayni wa qahri ‘r-rijāl."
+      ],
+      "en": [
+        "<em>O Allah</em>, I surely seek refuge with You from sorrow and sadness. I seek refuge with You from incapacity and laziness. I seek refuge with You from cowardice and stinginess. I seek refuge with You from hopelessness of debt and subjugation by men. <em>[3 times]</em>"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> إِنِّيْ أَعُوْذُ بِكَ مِنَ الْفَقْرِ وَالْعَيْلَةِ، وَأَعُوْذُ بِكَ مِنْ كُلِّ بَلِيَّةٍ."
+      ],
+      "tr": [
+        "Allāhumma innī a`ūdhu bi ka mina ‘l-faqri wa ‘l-`aylati, Wa a`ūdhu bi ka min kulli baliyyattin."
+      ],
+      "en": [
+        "<em>O Allah</em>, I surely seek refuge with You from need and poverty. I seek refuge with You from every tribulation."
+      ]
+    }
+  ]
+}

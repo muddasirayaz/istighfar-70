@@ -1,0 +1,44 @@
+{
+  "page": 100,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ وَ كُفَّ بِهَا عَنَّا الْأَسْوَاءَ وَالْبَلْوَى . [وَالْأَمْرَاضِ]"
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa kuffa bi hā `annā ‘l-aswā’a wa ‘l-balwā [wa ‘l-amrāḍ]."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and avert from us thereby all trial and tribulation [and sickness]!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ وَ الْطُفْ بِنَا بِبَرَكَاتِهَا فِي السِّرِّ وَ النَّجْوَى ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa ‘lṭuf bi nā bi barakātihā fi ‘s-sirri wa ‘n-najwā."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and be kind to us thereby secretly and in secret council!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَ سَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ ذَوِي الْمَقَامِ الْأَعْلَى وَ السِّرِّ الْأَجْلَى ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Dha wī ‘l-maqāmi ‘l-a`lā wa ‘s-sirri ‘l-ajlā."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family those of highest ranks and the most sublime secret!"
+      ]
+    }
+  ]
+}

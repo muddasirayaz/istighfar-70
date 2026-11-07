@@ -1,0 +1,20 @@
+{
+  "page": 53,
+  "blocks": [
+    {
+      "type": "image",
+      "src": "dome"
+    },
+    {
+      "type": "image",
+      "src": "emblem"
+    },
+    {
+      "type": "title",
+      "en": [
+        "Here the Seeker reads the following prayers of",
+        "SHAYKH SIDI AD-DARDĪR"
+      ]
+    }
+  ]
+}

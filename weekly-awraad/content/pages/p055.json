@@ -1,0 +1,45 @@
+{
+  "page": 55,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ صَلَاةً تَمْلَأُ سَائِرَ الْأَقْطَارِ وَالْأَرْجَآءِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Ṣalātan tamla’u sā’ira ‘l-aqṭāri wa ‘l-arjā’."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family a prayer that fills all regions and zones"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَ سَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ عَلَى أٰلِهٖ وَحَقِّقْنَا بِحَقَائِقِ الصِّفَاتِ وَالْأَسْمَآءِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa ḥaqqiqnā bi ḥaqā’iqi ‘ṣ-Ṣifāti wa al-Asmā’."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and substantiate in us the reality of (Your) names and attributes!"
+      ],
+      "review": "Source prints مُحَمَّدٍ عَلَى أٰلِهٖ without وَ although the transliteration has 'wa `alā Ālihī'; transcribed as printed."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَاجْعَلْنَا مَعَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْ مِنَ النَّبِيّٖنَ وَالصِّدِّيْقِيْنَ وَالشُّهَدَاءِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa ‘j`alnā ma`a ‘lladhīna an`amta `alayhim mina ‘n-Nabiyyīna wa ‘ṣ-Ṣiddīqīna wa ‘sh-Shuhadā’."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and put us with those You favor among the Prophets, truthful and martyrs!"
+      ]
+    }
+  ]
+}

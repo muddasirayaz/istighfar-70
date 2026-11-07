@@ -1,0 +1,43 @@
+{
+  "page": 4,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ"
+      ]
+    },
+    {
+      "type": "title",
+      "en": [
+        "The opening Silsilah Fātiḥa on the Masters of the Alawi Ḥusayni Ninowy Tariqah."
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "إِلَى حَضْرَةِ النَّبِيّ الْمُصْطَفَى صَلَّى اللّٰهُ تَعَالَى عَلَيْهِ وَعَلَى أٰلِهٖ وَسَلَّمَ وَ إِلَى أٰلِ بَيْتِهِ الطَّاهِرِيْنَ وَذُرِّيَتِهِ الصّٰلِحِيْنَ وَ إِلَى آبَائِنَا وَ مَشَايِخِنَا أَجْمَعِيْنَ <em>الفَاتِحَةُ</em>"
+      ],
+      "tr": [
+        "lā Ḥaḍrati ‘n-Nabiyyil Mustafā ṣallallaho ta`ālā `alayhi wa `alā Ālihī wa sallama wa ilā Āli baytihi ‘t-tāhirina wa dhurriyatihi ‘ṣ-Ṣalihina wa ilā Ābā’ina wa mashāyikhinā ajma`īn. <em>Al Fātiḥa</em>"
+      ],
+      "en": [
+        "To the presence of the Chosen Prophet, Allah the Exalted send prayers and peace upon him, to his purified household and pious progeny and to our fathers and elders, altogether… the Fātihah…"
+      ],
+      "review": "Small red decorative الفَاتِحَةُ: final ḍamma and vowel marks read from a tiny glyph (decorative muhmal ticks omitted). النَّبِيّ: shadda on yā with no visible kasra."
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ـ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ۝۱ الرَّحْمٰنِ الرَّحِيْمِ ۝۲ مٰلِكِ يَوْمِ الدِّيْنِؕ ۝۳ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُؕ ۝۴ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ۝۵ صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْۙ ۵ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّآلِّيْنَ ۝۷"
+      ],
+      "tr": [
+        "Al-Ḥamdu li ‘lLāhi Rabbi ‘l-`Ālamin (1) A’r-Raḥmāni ‘r-Raḥim (2) Māliki Yawmi ‘d-Dīn (3) Iyyāka na`budu wa iyyāka nasta`īn (4) Ihdina ‘ṣ-Ṣirāṭa ‘l-Mustaqīm. Ṣirāṭa ‘lladhina an`amta `alayhim (6), ghayri ‘l-maghḍūbi `alayhim wa la ‘ḍ-ḍā ‘l-līn (7)"
+      ],
+      "review": "After عَلَيْهِمْۙ the source prints a small unringed superscript ۵ (non-Kufan verse mark), transcribed as a bare digit."
+    }
+  ]
+}

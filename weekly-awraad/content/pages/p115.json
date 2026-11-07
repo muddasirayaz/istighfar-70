@@ -1,0 +1,76 @@
+{
+  "page": 115,
+  "blocks": [
+    {
+      "type": "couplet",
+      "ar": [
+        "وَ أَنْتَ غِيَاثِيْ <em>يَا حَسِيْبُ</em> مِنَ الرَّدَى",
+        "وَ أَنْتَ مَلَاذِيْ <em>يَا جَلِيْلُ</em> وَحَسْبُنَا"
+      ],
+      "tr": [
+        "Wa anta ghiyāthī Yā Ḥasību mina ‘r-radā",
+        "Wa Anta malādhī Yā Jalīlu wa ḥasbunā"
+      ],
+      "en": [
+        "You are my succour, O Reckoner, from destruction – You are my refuge, O Sublime, and our sufficiency"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَ جُدْ <em>يَا كَرِيْمُ</em> بِالْعَطَا مِنْكَ وَالرِّضَا",
+        "وَتَزْكِيَةِ الْأَخْلَاقِ وَالْجُوْدِ وَالْغِنَى"
+      ],
+      "tr": [
+        "Wa jud Yā Karīmu bi ‘l`aṭā min ka wa ‘r-riḍā",
+        "Wa tazkiyati ‘l-akhlāqi wa ‘l-jūdi wa ‘l-ghinā"
+      ],
+      "en": [
+        "Confer, O Generous, by a gift from You and contentment – Purified morals, generosity and prosperity"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "رَقِيْبٌ عَلَيْنَا فَاعْفُ عَنَّا وَعَافِنَا",
+        "وَيَسِّرْ عَلَيْنَا <em>يَا مُجِيْبُ</em> أُمُوْرَنَا"
+      ],
+      "tr": [
+        "Raqībun `alaynā fa`fu `annā wa `āfinā",
+        "Wa yassir `alaynā Yā Mujību umūranā"
+      ],
+      "en": [
+        "Watcher over us, pardon us and cure us – Ease for us, O Responder, all of our affairs"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "<em>وَ يَا وَاسِعًا</em> وَسِّعْ لَنَا الْعِلْمَ وَالْعَطَا",
+        "حَكِيْمًا أَنِلْنَا حِكْمَةً مِنْكَ تَهْدِنَا"
+      ],
+      "tr": [
+        "Wa Yā Wāsi`an wassi` lana ‘l-`ilma wa ‘l-`aṭā",
+        "Ḥakīman anilnā hikmatan min ka tahdinā"
+      ],
+      "en": [
+        "O Vast, expand for us knowledge and presents – Wise, grant us wisdom from You and guide us"
+      ]
+    },
+    {
+      "type": "couplet",
+      "ar": [
+        "وَدُوْدٌ فَجُدْ بِالْوُدِّ مِنْكَ تَكَرُّمًا",
+        "عَلَيْنَا وَشَرِّفْ <em>يَا مَجِيْدُ</em> شُءُوْنَنَا"
+      ],
+      "tr": [
+        "Wadūdun fajud bi ‘l-wuddi min ka takarrumā",
+        "`Alaynā wa sharrif Yā Majīdu shu’ūnanā"
+      ],
+      "en": [
+        "Loving, enhance the love from You generously – To us, and dignify, O Majestic, all our matters"
+      ],
+      "review": "شُءُوْنَنَا: printed with a single wāw; hamza (with ḍamma) floats above the shīn–wāw join and the wāw carries sukūn, so encoded with standalone ء rather than ؤ."
+    }
+  ]
+}

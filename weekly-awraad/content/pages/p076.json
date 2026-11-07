@@ -1,0 +1,46 @@
+{
+  "page": 76,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ وَأَعِذْنَا مِنْ كُلِّ مَا مِنْهُ اسْتَعَاذَ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa a`idhnā min kulli mā min hu ‘sta`ādh."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and protect us from everything from which he sought protection!"
+      ],
+      "review": "Source prints the opening words 'and send' of the translation in black at the end of the transliteration line ('‘sta`ādh.and send'); moved to the start of en by meaning."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ مَعْدِنِ الْأَسْرَارِ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Ma‘dini ‘l-asrār."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family the fountain of secrets!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ ووَعَلَى أٰلِهِ مَظْهَرِ الْأَنْوَارِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Maẓhari ‘l-anwār."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the manifestation of lights!"
+      ],
+      "review": "Source prints a doubled wāw after مُحَمَّدٍ (an extra unvowelled و before وَعَلَى), confirmed on zoom; transcribed as printed."
+    }
+  ]
+}

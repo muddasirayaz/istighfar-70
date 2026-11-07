@@ -1,0 +1,45 @@
+{
+  "page": 90,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ النَّاهِيْ عَنِ التَّبْذِيْرِ وَالْإِسْرَافِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Al-Nāhī `ani ‘t-tabdhīri wa ‘l-isrāf."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family prohibitor of wastefulness and extravagance!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ الْبَحْرِ الْخِضَمِّ الَّذِيْ مِنْهُ الْاِغْتِرَافِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Al-Baḥri ‘l-khiḍammi ‘lladhī minhu ‘l-ightirāf."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the vast sea from which is sipped!"
+      ],
+      "review": "الْاِغْتِرَافِ: final fāʾ is printed with kasra (not ḍamma); transcribed as printed."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ وَ أَسْعِفْنَا بِهِ كُلَّ الْإِسْعَافِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa as`ifnā bi hī kulla ‘l-is`āf."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and relieve us by him every relief!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "page": 75,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ ذَ وِي الْفَضْلِ وَالْإِمْدَادِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Dha wī ‘l-faḍli wa ‘l-imdād."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family those of merit and provision!"
+      ],
+      "review": "ذَ وِي is printed split with a space between ذَ and وِي (transcribed as printed); final yā of وِي carries no visible sukūn."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ أُسْتَاذِ كُلِّ أُسْتَاذٍ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Ustādhi kulli ustādh."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family, teacher of every teacher!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ مَلَاذِ كُلِّ مَلَاذٍ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Malādhi kulli malādh."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the protection of every protector!"
+      ]
+    }
+  ]
+}

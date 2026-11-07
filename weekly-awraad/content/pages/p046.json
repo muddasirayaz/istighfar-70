@@ -1,0 +1,46 @@
+{
+  "page": 46,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ عَلَى سَيِّدِنَا مُحَمَّدِ نِ النَّبِيِّ الْأُمِّيِّ الطَّاهِرِ الْمُطَهَّرِ الزَّكِّيِّ وَعَلَى أٰلِهٖ وَسَلِّمْ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli `alā Sayyidinā Muḥammadini ‘n-Nabiyyi ‘l-Ummiyyi, al-Ṭāhiri ‘l-Muṭahhari ‘z-Zakkiyyi, Wa `alā Ālihī, wa sallim."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon and salute our Master Muḥammad, the unlettered, pure, purifying and sinless and his Family!"
+      ],
+      "review": "مُحَمَّدِ نِ: tanwīn printed as a small nūn with kasra below the gap (nūn quṭnī), written as separate نِ. أٰلِهٖ: short stroke below the hā read as standing kasra."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِه ذِي الْمُعْجِزَاتِ الْبَاهِرَةِ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Dhi ‘l-mu`jizāti ‘l-bāhira."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family, possessor of brilliant miracles!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ ذِي الْمَنَاقِبِ الْفَاخِرَةِ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Dhi ‘l-manāqibi ‘l-fākhirah."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family, possessor of magnificent values!"
+      ],
+      "review": "أٰلِهٖ: short stroke below the hā read as standing kasra (absent in the previous passage)."
+    }
+  ]
+}

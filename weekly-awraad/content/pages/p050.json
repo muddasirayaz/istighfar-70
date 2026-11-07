@@ -1,0 +1,44 @@
+{
+  "page": 50,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَهَبْ لَنَا سِرًّا بِالْأَسْرَارِ مَسْرُوْرًا ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa hab lanā sirran bi ‘l-asrāri masrūrā."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and bestow upon us a secret from the secrets of happiness!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الصَّادِقِ الْأَمِيْنِ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Aṣ-Ṣādiqi ‘l-Amīn."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family the truthful and trustworthy!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الَّذِيْ جَاءَ بِالْحَقِّ الْمُبِيْنِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Alladhī jā’a bi ‘l-Haqqi ‘l-Mubīn."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the one who came with manifest truth!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "page": 19,
+  "blocks": [
+    {
+      "type": "heading",
+      "en": "7. Followed by this prayer (ẓikr): [7 times]"
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "سُبْحَانَ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَلَآ إِلٰهَ إِلَّا اللّٰهُ وَاللّٰهُ أَكْبَرُ وَلَا حَوْلَ وَ لَا قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ حَسْبِيَ اللّٰهُ وَنِعْمَ الْوَكِيْلُ ـ سَبْعًا"
+      ],
+      "tr": [
+        "Subḥāna ‘lLāhi wa ‘l-ḥamdu li ‘lLāhi wa lā ilāha illa ‘lLāhu wa ‘lLāhu akbar wa lā ḥawla wa lā quwwata illā bi ‘lLāhi ‘l-`aliyyi ‘l-`aẓīmi, Ḥasbiya ‘lLāhu wa ni`ma ‘l-Wakīl"
+      ],
+      "en": [
+        "Glory to Allah, Praise Allah, there is no god but Allah, Allah is the Greatest, there is neither Power nor Change but by Allah, Enough for me is Allah and the Best Guardian . <em>[7 times]</em>"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ عَلَى سَيِّدِنَا مُحَمَّدِنِ النُّوْرِ وَ أٰلِهٖ ـ مِائة مرّة"
+      ],
+      "tr": [
+        "Allāhumma ṣalli `alā Sayyidinā Muḥammadini ‘n-Nūri wa Ālihī"
+      ],
+      "en": [
+        "O Allah , send prayers upon our Master Muḥammad , the Light, and his Family! <em>[100 times +]</em>"
+      ],
+      "review": "مُحَمَّدِنِ: the source prints kasra under the dāl and a small separate نِ (nūn quṭnī) low between the words; joined here. أٰلِهٖ: mark above the alif read as hamza + dagger alif, could be hamza + ḍamma. مِائة مرّة: small text, only the kasra on mīm and shadda on rā are printed."
+    }
+  ]
+}

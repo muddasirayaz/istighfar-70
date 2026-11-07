@@ -1,0 +1,45 @@
+{
+  "page": 31,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَقَآئِدِ رَكْبِ الْأَنْبِيَآءِ الْمُكَرَّمِيْنَ ، وَأَفْضَلِ الْخَلْقِ أَجْمَعِيْنَ ، حَامِلِ لِوَاءِ الْعِزِّ الْأَعْلَى ، وَمَالِكِ أَزِمَّةِ الْمَجْدِ الْأَسْنَى ، م نْبَعِ الْعِلْمِ وَالْحِلْمِ وَالْحِكَمِ ، الْمُتَحَقِّقِ بِأَعْلَى رُتَبِ الْعُبُوْدِيَّةِ ،"
+      ],
+      "tr": [
+        "Wa Qā’idi rakbi ‘l-Anbiyā’i ‘l-Mukarramīna, Wa Afḍali ‘l-Khalqi ajma`īna, Ḥāmili liwā’i ‘l-`izzi ‘l-A`lā, Wa Māliki azimmati ‘l-majdi ‘l-asnā, Mamba`i ‘l`Ilmi wa ‘l-Ḥilmi wa l-Ḥikam, Al-Mutaḥaqqiqi bi a`lā rutabi ‘l-`ubūdiyyati,"
+      ],
+      "en": [
+        "chief of the noble Prophets' troop, best of Creation altogether, bearer of the most exalted standard, owner of reins of splendid majesty, fountainhead of knowledge, forebearance and wisdom, validator of the highest order of servitude,"
+      ],
+      "review": "مَنْبَعِ is printed split as an isolated م, a gap, then نْبَعِ (transcribed as printed: م نْبَعِ); vowel marks over نبع are small and their placement (sukūn on nūn, fatḥa on bā) is a best reading."
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "اَلْمُتَخَلِّقِ بِأَخْلَاقِ الْمَقَامَاتِ الْاِصْطِفَائِيَّةِ ، اَلْخَلِيْلِ الْأَعْظَمِ ، وَالْحَبِيْبِ الْأَكْرَمِ ،"
+      ],
+      "tr": [
+        "Al-Mutakhalliqi bi akhlāqi ‘l-Maqāmāti ‘l-Iṣṭifā’iyyati, Al-Khalīli ‘l-A`ẓami, Wa ‘l-Ḥabībi ‘l-Akrami,"
+      ],
+      "en": [
+        "perfumed by manners of the choicest processions, the greatest friend and most honorable love,"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "سَيِّدِنَا وَمَوْلَانَا مُحَمَّدِ ابْنِ عَبْدِ اللّٰهِ ابْنِ عَبْدِ الْمُطَّلِبِ ، صَلَّى اللّٰهُ عَلَيْهِ وَعَلَى أٰلِهِ وَصَحْبِهِ وَسَلَّمْ <em>.</em>"
+      ],
+      "tr": [
+        "Sayyidinā wa Mawlānā Muḥammadi ‘Bni Abdi ’lLāhi ‘Bni `Abdi ‘l-Muṭṭalibi, Ṣalla ‘lLāhu `alayhi wa `alā Ālihī wa ṣaḥbihī wa sallam."
+      ],
+      "en": [
+        "our Master, our Supporter Muḥammad  ibn Abdullah ibn Abdul Mutalib, Allah's prayer and salutations upon him, his family and companions!"
+      ]
+    }
+  ]
+}

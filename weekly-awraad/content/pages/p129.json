@@ -1,0 +1,44 @@
+{
+  "page": 129,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> إِنِّيْ أَعُوْذُ بِكَ مِنَ الْفَقْرِ إِلَّا إِلَيْكَ ، وَ مِنَ الذُّلِّ إِلَّا لَكَ، وَمِنَ الْخَوْفِ إِلَّا مِنْكَ ، وَ أَعُوْذُ بِكَ أَنْ أَقُوْلَ زُوْرًا أَوْ أَغْشَى فُجُوْرًا أَوْ أَكُوْنَ بِكَ مَغْرُوْرًا ."
+      ],
+      "tr": [
+        "Allāhumma innī a`ūdhu bi ka mina ‘l-faqri illā ilayka, Wa mina ‘dh-dhulli illā laka, Wa min ‘l-khawfi illa min ka, Wa a`ūdhu bi ka an aqūla zūran aw aghshā fujūran aw akūna bi ka maghrūrā."
+      ],
+      "en": [
+        "<em>O Allah</em>, I surely seek refuge with you from need except for You, from humility except for You, and from fear except of You! I seek refuge with You lest I speak falsehood or commit immorality or be deluded about You!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> إِنِّيْ أَعُوْذُ بِكَ مِنَ الْفِتَنِ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ - ثلاثا"
+      ],
+      "tr": [
+        "Allāhumma innī a`ūdhu bi ka min ‘l-fitani mā ẓahara min hā wa mā baṭan."
+      ],
+      "en": [
+        "<em>O Allah</em>, I surely seek refuge with you from trials, the apparent of them and the hidden! <em>[3 times]</em>"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "أَعُوْذُ بِكَلِمَاتِ اللّٰهِ التَّآمَّاتِ مِنْ شَرِّ مَا خَلَقَ ـ ثلاثا"
+      ],
+      "tr": [
+        "A`ūdhu bi kalimāti ‘lLāhi ‘t-tāmmāti min sharri mā khalaq."
+      ],
+      "en": [
+        "I seek refuge with the Complete Words of Allah from evil of what He created. <em>[3 times]</em>"
+      ]
+    }
+  ]
+}

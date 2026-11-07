@@ -1,0 +1,20 @@
+{
+  "page": 108,
+  "blocks": [
+    {
+      "type": "image",
+      "src": "dome"
+    },
+    {
+      "type": "image",
+      "src": "emblem"
+    },
+    {
+      "type": "title",
+      "en": [
+        "Manżūmatu Asmā’i ’lLāhi ‘l-Ḥusnā li",
+        "SAYYIDĪ AD-DARDĪR"
+      ]
+    }
+  ]
+}

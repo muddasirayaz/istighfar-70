@@ -1,0 +1,18 @@
+{
+  "page": 42,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَ سَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَ عَلَى أٰلِه بَحْرِ أَنْوَارِكَ ، وَمَعْدِنِ أَسْرَارِكَ ، وَلِسَانِ حُجَّتِكَ،وَعَرُوْسِ مَمْلَكَتِكَ ، وَإِمَامِ حَضْرَتِكَ ، وَ طِرَازِ مُلْكِكَ ، وَ خَزَائِنِ رَحْمَتِكَ ، وَ طَرِيْقِ شَرِيْعَتِكَ الْمُتَلَذِّذِ بِتَوْحِيْدِكَ ،"
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `ala Ālihī, Baḥri anwārika wa ma`dini asrārika, Wa lisāni hujjatika wa `arūsi mamlakatika, Wa imāmi ḥaḍratika wa ṭirāzi Mulkika wa khazā’ini Raḥmatika, Wa ṭarīqi Sharī`atika ‘l-mutaladh’dhidhi bi Tawḥīdika."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family, the ocean of Your lights, fountain of Your secrets, tongue of Your proof, groom of Your empire, criterion of Your Presence, model of Your dominion, treasure house of Your mercy, method of Your law, the one enraptured by Your unity,"
+      ]
+    }
+  ]
+}

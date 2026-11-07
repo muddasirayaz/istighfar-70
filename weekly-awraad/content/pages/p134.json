@@ -1,0 +1,65 @@
+{
+  "page": 134,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "رَبِّ اشْرَحْ لِيْ صَدْرِيْۙ ۝۲۵ وَ يَسِّرْ لِيٓ أَمْرِيْۙ ۝۲۶ وَاحْلُلْ عُقْدَةً مِّنْ لِّسَانِيْۙ ۝۲۷ يَفْقَهُوْا قَوْلِيْۖ ۝۲۸"
+      ],
+      "tr": [
+        "Rabbi ‘shraḥ lī ṣadrī wa yassir lī amrī, waḥlu ‘l `uqdatam ‘min lisānī yafqahū qawlī."
+      ],
+      "en": [
+        "My Lord, open my breast for me, facilitate my task for me and clear the knot from my tongue so others can understand my speech!"
+      ],
+      "review": "The mark above medallion ۲۸ is a small high ص; no exact codepoint in the allowed set, transcribed as ۖ. لِيٓ printed with madda sign over the yā (no sukūn)."
+    },
+    {
+      "type": "note",
+      "en": [
+        "Sura Taha Verse 25-28"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "رَبِّ أَوْزِعْنِيٓ اَنْ اَشْكُرَ نِعْمَتَكَ الَّتِيٓ اَنْعَمْتَ عَلَيَّ وَعَلٰى وَالِدَيَّ وَاَنْ اَعْمَلَ صَالِحًا تَرْضٰهُ وَ أَدْخِلْنِيْ بِرَحْمَتِكَ فِيْ عِبَادِكَ الصّٰلِحِيْنَ ۝۱۹"
+      ],
+      "tr": [
+        "Rabbi awzi`nī `an ashkura ni`mata ka ‘l-latī an`amta `alayya wa `alā wālidayya, wa an a`mala ṣāliḥan tarḍāhu wa adkhilnī bi raḥmati ka fī `ibādi ka ‘ṣ-Ṣālihīna."
+      ],
+      "en": [
+        "My Lord, inspire me to thank You for Your bounties with which You blessed me and my parents, so I work righteousness with which You are pleased, and join me, by Your mercy, with Your righteous servants!"
+      ],
+      "review": "أَوْزِعْنِيٓ and الَّتِيٓ printed with madda sign over the final yā."
+    },
+    {
+      "type": "note",
+      "en": [
+        "Sura Al Naml Verse 19"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "quran",
+      "ar": [
+        "رَبِّ اغْفِرْ وَ ارْحَمْ وَ أَنْتَ خَيْرُ الرّٰحِمِيْنَ ۝۱۱۸"
+      ],
+      "tr": [
+        "Rabbi ‘ghfir wa ‘rḥam wa anta khayru ‘r-Rāhimīna."
+      ],
+      "en": [
+        "My Lord, forgive and have mercy, You are the Best of The Profoundly Merciful."
+      ],
+      "review": "A small ع (rukūʿ sign) printed above medallion ۱۱۸ is omitted: no codepoint for it in the allowed set."
+    },
+    {
+      "type": "note",
+      "en": [
+        "Sura Mu’minun Verse 118"
+      ]
+    }
+  ]
+}

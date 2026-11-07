@@ -1,0 +1,44 @@
+{
+  "page": 70,
+  "blocks": [
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الَّذِيْ بِسِرِّهِ اسْتَقَامَتِ الْبَرَازِخُ ."
+      ],
+      "tr": [
+        "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Alladhī bi sirrihi ‘staqāmati ‘l-barāzikh."
+      ],
+      "en": [
+        "<em>O Allah</em> send prayers upon, salute and bless our Master Muḥammad and his Family the one by whose secret interim states are kept in order!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ عَدَدَ كُلِّ مَنْسُوْخٍ وَنَاسِخٍ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, `Adada kulli mansūkhin wa nāsikh."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family the number of everything abrogated and abrogating!"
+      ]
+    },
+    {
+      "type": "passage",
+      "kind": "prayer",
+      "ar": [
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَعَمِّرْ قُلُوْبَنَا بِالنُّوْرِ الرَّاسِخِ ."
+      ],
+      "tr": [
+        "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa `ammir qulūbanā bi ‘n-Nūri ‘r-rāsikh."
+      ],
+      "en": [
+        "and send prayers upon, salute and bless our Master Muḥammad and his Family and refurbish our hearts with firmly established light!"
+      ]
+    }
+  ]
+}
