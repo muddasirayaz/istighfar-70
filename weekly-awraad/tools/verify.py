@@ -40,6 +40,15 @@ KNOWN_ABSENT = {
     **{n: (collections.Counter('WEEKLYAWRAAD'), 'the section card holds a hidden copy of the cover title')
        for n in (53, 104, 108, 126, 140)},
 }
+# Latin characters the content adds that the PDF does not have, each verified against the page image.
+KNOWN_EXTRA = {
+    105: (collections.Counter('MercifulYāAllāhuOAllah'),
+          "PDF truncates 'O Especially Merciful' to 'O Especially'; Yā Allāh refrain is decorative with no Latin text"),
+    106: (collections.Counter('YāAllāhuOAllah'),
+          'Yā Allāh refrain appears as a decorative element without Latin text in the PDF'),
+    107: (collections.Counter('YāAllāhuOAllah'),
+          'Yā Allāh refrain appears as a decorative element without Latin text in the PDF'),
+}
 
 
 def is_arabic(ch):
@@ -168,9 +177,10 @@ def check_latin(n, blocks, page):
     in_arabic = latin_multiset(''.join(TAG.sub('', s) for s in arabic_strings(blocks)))
     got = in_fields + in_arabic
     absent = KNOWN_ABSENT.get(n, (collections.Counter(), ''))[0]
+    added = KNOWN_EXTRA.get(n, (collections.Counter(), ''))[0]
     missing, extra = want - got, got - want
     tolerated = collections.Counter({'.': min(extra['.'], in_arabic['.'])})
-    if missing != absent or extra - tolerated or in_fields - want:
+    if missing != absent or (extra - tolerated) != added or (in_fields - want) - added:
         return ['p%03d Latin text differs from PDF: missing %s, extra %s' % (n, dict(missing - absent), dict(extra - tolerated))]
     return []
 
