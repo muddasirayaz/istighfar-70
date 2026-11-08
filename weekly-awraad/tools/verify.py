@@ -142,11 +142,22 @@ def main():
         with pdfplumber.open(PDF) as pdf:
             for n, blocks in sorted(pages.items()):
                 problems.extend(check_latin(n, blocks, pdf.pages[n - 1]))
+                problems.extend(check_standing_kasra(n, blocks, pdf.pages[n - 1]))
 
     for p in problems:
         print(p)
     print('%d pages checked, %d problems' % (len(pages), len(problems)))
     sys.exit(1 if problems else 0)
+
+
+def check_standing_kasra(n, blocks, page):
+    """The PDF's scrambled Arabic layer still encodes marks as real code points, and the standing kasra (U+0656)
+    is never folded into a ligature glyph, so its count per page must match the transcription exactly."""
+    want = sum(c['text'].count('ٖ') for c in page.chars if c['fontname'].split('+')[-1].startswith(ARABIC_FONTS))
+    got = sum(TAG.sub('', s).count('ٖ') for s in arabic_strings(blocks))
+    if want != got:
+        return ['p%03d standing kasra (U+0656): PDF has %d, transcription has %d' % (n, want, got)]
+    return []
 
 
 def is_footer_label(c):
