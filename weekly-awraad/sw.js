@@ -16,10 +16,19 @@ self.addEventListener('install', event => event.waitUntil((async () => {
 })()));
 
 self.addEventListener('activate', event => event.waitUntil((async () => {
+  let replacedOldEdition = false;
   for (const key of await caches.keys()) {
-    if (key.startsWith('awraad-') && key !== CACHE) await caches.delete(key);
+    if (key.startsWith('awraad-') && key !== CACHE) {
+      await caches.delete(key);
+      replacedOldEdition = true;
+    }
   }
   await self.clients.claim();
+  // Tabs opened under an earlier edition are still showing pages it served from its cache; reload them once into
+  // this edition. Only runs when an older cache was just removed, so it cannot loop.
+  if (replacedOldEdition) {
+    for (const client of await self.clients.matchAll({ type: 'window' })) client.navigate(client.url);
+  }
 })()));
 
 self.addEventListener('fetch', event => {
