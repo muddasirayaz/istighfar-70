@@ -60,7 +60,7 @@
     {
       "type": "couplet",
       "ar": [
-        "وَدُوْدٌ فَجُدْ بِالْوُدِّ مِنْكَ تَكَرُّمًا",
+        "وَدُوْدٌ فَجُدْ بِالْوُدِّ مِنْكَ تكَرُّمًا",
         "عَلَيْنَا وَشَرِّفْ <em>يَا مَجِيْدُ</em> شُءُوْنَنَا"
       ],
       "tr": [
@@ -70,7 +70,7 @@
       "en": [
         "Loving, enhance the love from You generously – To us, and dignify, O Majestic, all our matters"
       ],
-      "review": "شُءُوْنَنَا: printed with a single wāw; hamza (with ḍamma) floats above the shīn–wāw join and the wāw carries sukūn, so encoded with standalone ء rather than ؤ."
+      "review": "شُءُوْنَنَا: printed with a single wāw; hamza (with ḍamma) floats above the shīn–wāw join and the wāw carries sukūn, so encoded with standalone ء rather than ؤ. Verifier: تكَرُّمًا — no fatḥa visible on the initial tāʾ (only the kāf's fatḥa; the stroke over the tāʾ is the kāf's top bar), same as p112; transcribed as printed."
     }
   ]
 }
