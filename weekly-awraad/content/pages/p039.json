@@ -2,54 +2,55 @@
   "page": 39,
   "blocks": [
     {
-      "type": "heading",
-      "en": "Sura Al Kahf Verse 10"
+      "type": "note",
+      "en": [
+        "Sura Al Kahf Verse 10"
+      ]
     },
     {
       "type": "passage",
       "kind": "quran",
       "ar": [
-        "رَبَّنَآ أَٰتِنَا مِنْ لَّدُنْكَ رَحْمَةً وَّهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا ۝۱۰"
+        "رَبَّنَآ أٰتِنَا مِنْ لَّدُنْكَ رَحْمَةً وَّهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا ۝۱۰"
       ],
       "tr": [
         "Rabbanā atinā min ladunka raḥmatan wa hayyi’ lanā min amrinā rashadā,"
       ],
       "en": [
         "Our Lord, grant us Mercy from Your very Self and pave a righteous way in our affairs!"
-      ],
-      "review": "أَٰتِنَا: alif carries a black hamza+fatḥa with a green dagger alif overprinted (same correction pattern as p037); transcribed as both marks."
+      ]
     },
     {
-      "type": "heading",
-      "en": "Sura Al Ahzab Verse 56"
+      "type": "note",
+      "en": [
+        "Sura Al Ahzab Verse 56"
+      ]
     },
     {
       "type": "passage",
       "kind": "quran",
       "ar": [
-        "إِنَّ اللّٰهَ وَ مَلَٓئِكَتَهٗ يُصَلُّوْنَ عَلَى النَّبِيِّؕ يَآ اَيُّهَا الَّذِيْنَ اٰمَنُوْا صَلُّوْا عَلَيْهِ وَ سَلِّمُوْا تَسْلِيْمًا ۝۵۶"
+        "اِنَّ اللّٰهَ وَمَلٰٓئِكَتَهٗ يُصَلُّوْنَ عَلَى النَّبِيِّؕ يَآ اَيُّهَا الَّذِيْنَ اٰمَنُوْا صَلُّوْا عَلَيْهِ وَسَلِّمُوْا تَسْلِيْمًا ۝۵۶"
       ],
       "tr": [
         "Inna ‘lLāha wa malā’ikatahū yuṣallūna `alā ‘n-Nabiyyi, Yā Ayyuhā ‘lladhīna āmanū ṣallū `alayhi wa sallimū taslīmā."
       ],
       "en": [
         "Allah and His Angels surely send prayers upon the Prophet; O you who believe, send prayers upon him and salute him most thoroughly!"
-      ],
-      "review": "مَلَٓئِكَتَهٗ: small marks over lām read as fatḥa+madda sign, and the mark after hā as inverted ḍamma; يَآ اَيُّهَا: second alif shows only a fatḥa (no hamza visible)."
+      ]
     },
     {
       "type": "passage",
       "kind": "prayer",
       "ar": [
-        "<em>اَللَّهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى الذَّاتِالْمُحَمَّدِيَّةِ ، اَللَّطِيْفَةِ الْأَحَدِيَّةِ ،شَمْسِ سَمَاءِ الْأَسْرَارِ وَمَظْهَرِ الْأَنْوَارِ ، وَمَرْكَزِ مَدَارِ الْجَلَالِ وَقُطْبِ فَلَكِ الْجَمَالِ <em>.</em>"
+        "<em>اَللَّهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى الذَّاتِالْمُحَمَّدِيَّةِ ، اَللَّطِيْفَةِ الْأَحَدِيَّةِ ،شَمْسِ سَمَاءِ الْأَسْرَارِوَمَظْهَرِ الْأَنْوَارِ ، وَمَرْكَزِ مَدَارِالْجَلَالِ وَقُطْبِ فَلَكِ الْجَمَالِ <em>.</em>"
       ],
       "tr": [
         "Allāhumma ṣalli wa sallim wa bārik `alā ‘dh-dhāti ‘l-Muḥammadiyyati, al-Laṭīfati ‘l-Aḥadiyyati, Shamsi samā’i ‘l-asrāri wa maẓhari ‘l-anwāri, Wa markazi madāri ‘l-jalāli wa quṭbi falaki ‘l-jamāl."
       ],
       "en": [
         "<em>O Allah</em> send prayers upon, salute and bless the Muḥammadan Essence, Subtle and Unique, Sun in the Sky of Secrets, Manifestation of Lights, Central Pivot of Sublimity, Axis of the Orbit of Beauty!"
-      ],
-      "review": "الذَّاتِالْمُحَمَّدِيَّةِ is printed run together with no space (kept as printed)."
+      ]
     }
   ]
 }

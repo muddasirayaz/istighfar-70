@@ -21,7 +21,7 @@ COVER_PAGES = (1, 3)
 ART_ALT = {
     'dome': 'The Green Dome of the Prophet’s Mosque in Madinah',
     'emblem': 'Calligraphic emblem of the ʿAlawī Ḥusaynī Ninowī Zāwiyah',
-    'artwork-p12': 'Illuminated medallion as printed in the original edition',
+    'artwork-p12': 'Illuminated medallion bearing the names Allah, Muḥammad, ʿAlī, Fāṭimah, Ḥasan and Ḥusayn',
     'artwork-p139': 'Illuminated medallion as printed in the original edition',
 }
 REPEAT = re.compile(r'\[?\s*(\d+)\s*times?\s*\]?', re.I)
@@ -257,14 +257,17 @@ def first_arabic(pages, a, b):
 
 def build_index(pages):
     cover = ''.join(render_folio(n, pages[n]) for n in range(COVER_PAGES[0], COVER_PAGES[1] + 1))
-    cards = ''.join(
-        '<li><a class="card" href="%s.html"><span class="card-arch" aria-hidden="true"></span>'
-        '<span class="card-num">%d</span><span class="card-label">%s</span>%s'
-        '<span class="card-pages">Pages %d–%d</span></a></li>'
-        % (s['slug'], i + 1, html.escape(s['label']),
-           ('<span class="card-ar" lang="ar" dir="rtl">%s</span>' % html.escape(first_arabic(pages, *s['pages']))) if first_arabic(pages, *s['pages']) else '',
-           s['pages'][0], s['pages'][1])
-        for i, s in enumerate(SECTIONS))
+    cards = []
+    for i, s in enumerate(SECTIONS):
+        ar = first_arabic(pages, *s['pages'])
+        cards.append(
+            '<li><a class="card" href="%s.html"><span class="card-arch" aria-hidden="true"></span>'
+            '<span class="card-num">%d</span><span class="card-label">%s</span>%s'
+            '<span class="card-pages">Pages %d–%d</span></a></li>'
+            % (s['slug'], i + 1, html.escape(s['label']),
+               '<span class="card-ar" lang="ar" dir="rtl">%s</span>' % html.escape(ar) if ar else '',
+               s['pages'][0], s['pages'][1]))
+    cards = ''.join(cards)
     body = '''<body class="page-home">
 <a class="skip" href="#contents">Skip to contents</a>
 %s

@@ -10,16 +10,15 @@
         "The ‘Alawī Ḥusaynī Ninowī Zāwiyah",
         "of",
         "The Shādhilī Rifā’ī Qādirī Ṣūfī Ṭarīqah"
-      ],
-      "review": "اَلزَّاوِيَةُ: the alif stands detached with its fatḥa drifting over the gap before the lām; transcribed as one word. Sukūn in this display font is an open hook (unlike the looped ḍamma). Last word النَّيْنَوِيّةُ: final yā shows shadda with no fatḥa, as printed."
+      ]
     },
     {
       "type": "passage",
       "kind": "prayer",
       "ar": [
-        "اَللّٰهُمَّ صَلِّ عَلىَ سَيِّدِنَا مُحَمَّدِۨ النُّوْرِ وَ أٰلِهٖ"
+        "اَللَّهُمَّ صَلِّ عَلىَ سَيِّدِنَا مُحَمَّدِۨ النُّوْرِ وَ أٰلِهٖ"
       ],
-      "review": "After مُحَمَّدِ a small nūn quṭnī with kasra is printed low in the gap before النُّوْرِ; encoded as U+06E8 (small high nūn). عَلىَ printed with a plain fatḥa over the final letter, no dagger alif."
+      "review": "After مُحَمَّدِ a small nūn quṭnī with kasra is printed low in the gap before النُّوْرِ; encoded as U+06E8 (small high nūn). عَلىَ printed with a plain fatḥa over the final letter, no dagger alif. Proof-reader: reading confirmed (small nūn below the gap carries its own kasra; standing kasra under hā of أٰلِهٖ); only the U+06E8 encoding choice for the low nūn quṭnī remains a convention question."
     }
   ]
 }

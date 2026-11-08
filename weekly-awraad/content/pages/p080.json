@@ -5,7 +5,7 @@
       "type": "passage",
       "kind": "prayer",
       "ar": [
-        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ وَطَهِّرْنَا مِنَ الْأَدْنَاسِ ."
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ وَطَهِّرْنَا مِنَ الْأَدْنَاسِ ."
       ],
       "tr": [
         "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Wa ṭahhirnā mina ‘l-adnās."
@@ -18,7 +18,7 @@
       "type": "passage",
       "kind": "prayer",
       "ar": [
-        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ الَّذِيْنَ أَزَلْتَ عَنْهُمُ الْأَرْجَاسِ ."
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الَّذِيْنَ أَزَلْتَ عَنْهُمُ الْأَرْجَاسِ ."
       ],
       "tr": [
         "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Alladhīna azalta `anhumu ‘l-arjās."
@@ -26,13 +26,13 @@
       "en": [
         "and send prayers upon, salute and bless our Master Muḥammad and his Family those who on whom impurities vanish!"
       ],
-      "review": "الْأَرْجَاسِ: final vowel is printed as kasra (accusative fatḥa would be expected); transcribed as printed (rhyme vowel)."
+      "review": "الْأَرْجَاسِ: final vowel is printed as kasra (accusative fatḥa would be expected); transcribed as printed (rhyme vowel). Verifier: kasra confirmed on a02_l."
     },
     {
       "type": "passage",
       "kind": "prayer",
       "ar": [
-        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ الَّذِيْ لَمْ يَرْضَ بِلِيْنِ الْفِرَاشِ ."
+        "<em>اَللَّهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ الَّذِيْ لَمْ يَرْضَ بِلِيْنِ الْفِرَاشِ ."
       ],
       "tr": [
         "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Alladhī lam yarḍa bi līni ‘l-firāsh."
