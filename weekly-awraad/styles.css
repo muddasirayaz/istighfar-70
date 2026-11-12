@@ -62,6 +62,7 @@ button { font: inherit; color: inherit; }
   height: var(--bar-h);
   display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .75rem;
   padding: 0 max(1rem, env(safe-area-inset-left)) 0 max(1rem, env(safe-area-inset-right));
+  background: var(--bg);
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   -webkit-backdrop-filter: blur(14px) saturate(1.2); backdrop-filter: blur(14px) saturate(1.2);
   border-bottom: 1px solid var(--gold-faint);

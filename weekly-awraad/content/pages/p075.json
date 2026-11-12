@@ -5,7 +5,7 @@
       "type": "passage",
       "kind": "prayer",
       "ar": [
-        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ ذَ وِي الْفَضْلِ وَالْإِمْدَادِ ."
+        "وَصَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ ذَ وِي الْفَضْلِ وَالْإِمْدَادِ ."
       ],
       "tr": [
         "Wa ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Dha wī ‘l-faḍli wa ‘l-imdād."
@@ -13,13 +13,13 @@
       "en": [
         "and send prayers upon, salute and bless our Master Muḥammad and his Family those of merit and provision!"
       ],
-      "review": "ذَ وِي is printed split with a space between ذَ and وِي (transcribed as printed); final yā of وِي carries no visible sukūn."
+      "review": "ذَ وِي is printed split with a space between ذَ and وِي (transcribed as printed); final yā of وِي carries no visible sukūn. Verifier: confirmed on a01_l — gap after ذَ (~40px) is wider than the non-joining gap in وَ|الْإِمْدَادِ (~19px), so kept split as printed."
     },
     {
       "type": "passage",
       "kind": "prayer",
       "ar": [
-        "<em>اَللّٰهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهِ أُسْتَاذِ كُلِّ أُسْتَاذٍ ."
+        "<em>اَللَّهُمَّ</em> صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أٰلِهٖ أُسْتَاذِ كُلِّ أُسْتَاذٍ ."
       ],
       "tr": [
         "Allāhumma ṣalli wa sallim wa bārik `alā Sayyidinā Muḥammadin wa `alā Ālihī, Ustādhi kulli ustādh."
