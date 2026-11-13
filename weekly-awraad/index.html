@@ -11,9 +11,11 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preload" href="fonts/amiri-arabic-normal-4f1f7d.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/amiri-quran-arabic-normal-8aaeb9.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="fonts/fonts.css">
 <link rel="stylesheet" href="styles.css">
-<script>(function(){var d=document.documentElement;d.classList.add('js');try{var p=JSON.parse(localStorage.getItem('awraad-prefs')||'{}');if(p.theme)d.setAttribute('data-theme',p.theme);if(p.scale)d.style.setProperty('--ar-scale',p.scale);['ar','tr','en'].forEach(function(k){if(p[k]===false)d.classList.add('hide-'+k)})}catch(e){}})();</script>
+<script>(function(){var d=document.documentElement;d.classList.add('js');try{var p=JSON.parse(localStorage.getItem('awraad-prefs')||'{}');if(p.theme)d.setAttribute('data-theme',p.theme);if(p.scale)d.style.setProperty('--ar-scale',p.scale);['ar','tr','en'].forEach(function(k){if(p[k]===false)d.classList.add('hide-'+k)})}catch(e){}})();window.PAGE_MAP=[[3,"."],[52,"opening"],[103,"dardir"],[107,"asma"],[125,"manzumah"],[140,"dua"]];</script>
 <script src="app.js" defer></script>
 </head>
 <body class="page-home">
@@ -45,6 +47,11 @@
       <button type="button" class="chip" data-theme-set="light">Day</button>
       <button type="button" class="chip" data-theme-set="dark">Night</button>
       <button type="button" class="chip" data-theme-set="auto">Auto</button>
+    </div>
+    <p class="settings-label">Navigate</p>
+    <div class="chips">
+      <input type="number" id="goto-page" class="goto-input" min="1" max="140" placeholder="Page 1–140" inputmode="numeric" autocomplete="off">
+      <button type="button" class="chip" id="goto-btn">Go</button>
     </div>
     <p class="settings-label">Source</p>
     <div class="chips">
