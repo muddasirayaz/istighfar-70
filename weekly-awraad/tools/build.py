@@ -125,6 +125,11 @@ def render_folio(n, blocks):
             % (n, n, n, n, n, n, ''.join(out)))
 
 
+PAGE_MAP_JS = 'window.PAGE_MAP=[%s];' % ','.join(
+    ['[%d,"%s"]' % (COVER_PAGES[1], '.')] +
+    ['[%d,"%s"]' % (s['pages'][1], s['slug']) for s in SECTIONS])
+
+
 def head(title, description):
     return '''<!doctype html>
 <html lang="en">
@@ -139,12 +144,14 @@ def head(title, description):
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preload" href="fonts/amiri-arabic-normal-4f1f7d.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/amiri-quran-arabic-normal-8aaeb9.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="fonts/fonts.css">
 <link rel="stylesheet" href="styles.css">
-<script>%s</script>
+<script>%s%s</script>
 <script src="app.js" defer></script>
 </head>
-''' % (html.escape(description), html.escape(title), PREFS_BOOT)
+''' % (html.escape(description), html.escape(title), PREFS_BOOT, PAGE_MAP_JS)
 
 
 # Applies saved reading preferences before first paint so text never flashes in the wrong layout.
@@ -174,6 +181,11 @@ def settings_panel():
       <button type="button" class="chip" data-theme-set="dark">Night</button>
       <button type="button" class="chip" data-theme-set="auto">Auto</button>
     </div>
+    <p class="settings-label">Navigate</p>
+    <div class="chips">
+      <input type="number" id="goto-page" class="goto-input" min="1" max="140" placeholder="Page 1–140" inputmode="numeric" autocomplete="off">
+      <button type="button" class="chip" id="goto-btn">Go</button>
+    </div>
     <p class="settings-label">Source</p>
     <div class="chips">
       <button type="button" class="chip" id="proof-toggle" aria-pressed="false">Compare with original pages</button>
@@ -184,18 +196,24 @@ def settings_panel():
 </div>'''
 
 
+RECITE_BTN = '''<button type="button" class="bar-btn bar-recite" id="recite-btn" aria-pressed="false" aria-label="Recite mode">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+  </button>'''
+
+
 def topbar(label, home=False):
     left = ('<span class="bar-brand">Weekly Awraad</span>' if home else
             '<a class="bar-home" href="./" aria-label="Contents"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span>Contents</span></a>')
+    recite = '' if home else RECITE_BTN
     return '''<header class="bar">
   %s
   <p class="bar-title">%s</p>
-  <button type="button" class="bar-btn" id="settings-btn" aria-controls="settings" aria-expanded="false" aria-label="Reading settings">
+  %s<button type="button" class="bar-btn" id="settings-btn" aria-controls="settings" aria-expanded="false" aria-label="Reading settings">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
   </button>
   <div class="progress" aria-hidden="true"><span></span></div>
 </header>
-%s''' % (left, html.escape(label), settings_panel())
+%s''' % (left, html.escape(label), recite, settings_panel())
 
 
 def contents_for(section, pages):
@@ -233,6 +251,12 @@ def build_section(i, section, pages):
     pager = '<nav class="pager" aria-label="Sections">%s%s</nav>' % (
         '<a class="pager-prev" href="%s.html"><small>Previous</small>%s</a>' % (prev_s['slug'], html.escape(prev_s['label'])) if prev_s else '<a class="pager-prev" href="./"><small>Back to</small>Contents</a>',
         '<a class="pager-next" href="%s.html"><small>Next</small>%s</a>' % (next_s['slug'], html.escape(next_s['label'])) if next_s else '')
+    dock = '' if 'class="counter"' not in folios else '''<div class="dock" id="dock">
+  <button class="dock-btn" id="dock-btn" type="button" aria-label="Recitation counter">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><circle class="counter-track" cx="20" cy="20" r="17.5"/><circle class="counter-fill" cx="20" cy="20" r="17.5"/></svg>
+    <span class="dock-n">0</span><span class="dock-of">/1</span>
+  </button>
+</div>'''
     body = '''<body class="page-section" data-section="%s">
 <a class="skip" href="#text">Skip to text</a>
 %s
@@ -241,7 +265,8 @@ def build_section(i, section, pages):
 %s
 </main>
 %s
-%s''' % (section['slug'], topbar(section['label']), contents_for(section, pages), folios, pager, footer())
+%s
+%s''' % (section['slug'], topbar(section['label']), contents_for(section, pages), folios, pager, dock, footer())
     title = '%s — Weekly Awraad' % section['label']
     desc = '%s: Arabic, transliteration and translation from the Weekly Awraad, original pages %d–%d.' % (section['label'], a, b)
     (ROOT / ('%s.html' % section['slug'])).write_text(head(title, desc) + body, encoding='utf-8')
@@ -288,7 +313,7 @@ def build_index(pages):
 
 
 def build_precache():
-    files = ['./', 'index.html'] + ['%s.html' % s['slug'] for s in SECTIONS]
+    files = ['./', 'index.html'] + ['%s.html' % s['slug'] for s in SECTIONS] + ['404.html']
     files += ['styles.css', 'app.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'fonts/fonts.css']
     files += sorted('fonts/' + p.name for p in (ROOT / 'fonts').glob('*.woff2'))
     files += sorted('art/' + p.name for p in (ROOT / 'art').glob('*.webp'))

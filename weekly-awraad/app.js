@@ -3,14 +3,14 @@
 const PREFS_KEY = 'awraad-prefs';
 const PLACE_KEY = 'awraad-place';
 const COUNT_KEY = 'awraad-counts';
-const SIZES = [0.8, 0.9, 1, 1.1, 1.25, 1.4, 1.6];
+const SIZES = [0.8, 0.9, 1, 1.1, 1.25, 1.4, 1.6, 1.8, 2];
 const root = document.documentElement;
 
 function readJSON(key) {
   try { return JSON.parse(localStorage.getItem(key) || '{}') || {}; } catch { return {}; }
 }
 function writeJSON(key, value) {
-  try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* private mode: preferences last for this visit only */ }
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch {}
 }
 
 const prefs = readJSON(PREFS_KEY);
@@ -84,14 +84,15 @@ function initSettings() {
   if (new URLSearchParams(location.search).has('proof')) setProof(true);
 }
 
-/* ── Recitation counters (per passage, remembered for the day) ── */
+/* ── Recitation counters + dock ───────────────────────── */
 function initCounters() {
   const today = new Date().toDateString();
   let store = readJSON(COUNT_KEY);
   if (store.day !== today) store = { day: today, c: {} };
   const section = document.body.dataset.section || 'home';
+  const counters = [...document.querySelectorAll('.counter')];
 
-  document.querySelectorAll('.counter').forEach((btn, i) => {
+  counters.forEach((btn, i) => {
     const id = section + ':' + i;
     const target = Number(btn.dataset.target);
     const num = btn.querySelector('.counter-n');
@@ -113,9 +114,176 @@ function initCounters() {
       if (n === target && navigator.vibrate) navigator.vibrate([18, 60, 18]);
     });
   });
+
+  const dock = document.getElementById('dock-btn');
+  if (!dock || !counters.length) return;
+  const dockN = dock.querySelector('.dock-n');
+  const dockOf = dock.querySelector('.dock-of');
+  let activeIdx = 0;
+
+  // The dock stands in for the counter of the passage being read, and only while that counter is off screen:
+  // a counter that is visible is tapped directly, so showing both would duplicate it.
+  const syncDock = () => {
+    const mid = innerHeight / 2;
+    let best = -1;
+    counters.forEach((c, i) => {
+      const passage = c.parentElement.getBoundingClientRect();
+      if (passage.top <= mid && passage.bottom >= mid) best = i;
+    });
+    if (best >= 0) {
+      const r = counters[best].getBoundingClientRect();
+      if (r.top < innerHeight && r.bottom > 0) best = -1;
+    }
+    dock.parentElement.classList.toggle('dock-off', best < 0);
+    if (best < 0) return;
+    activeIdx = best;
+    const id = section + ':' + best;
+    const n = store.c[id] || 0;
+    const target = Number(counters[best].dataset.target);
+    dockN.textContent = n;
+    dockOf.textContent = '/' + target;
+    dock.style.setProperty('--p', Math.min(1, n / target));
+    dock.classList.toggle('done', n >= target);
+    dock.setAttribute('aria-label', 'Recitation counter, ' + n + ' of ' + target + '. Hold to reset.');
+  };
+
+  let dockTick = false;
+  addEventListener('scroll', () => {
+    if (!dockTick) { dockTick = true; requestAnimationFrame(() => { dockTick = false; syncDock(); }); }
+  }, { passive: true });
+  syncDock();
+
+  let pressTimer, heldToReset = false;
+  dock.addEventListener('click', () => {
+    // The release that ends a hold-to-reset also fires a click; it must not count as a recitation.
+    if (heldToReset) { heldToReset = false; return; }
+    counters[activeIdx].click();
+    syncDock();
+    if (navigator.vibrate) navigator.vibrate(10);
+  });
+
+  dock.addEventListener('pointerdown', () => {
+    heldToReset = false;
+    pressTimer = setTimeout(() => {
+      heldToReset = true;
+      const id = section + ':' + activeIdx;
+      const c = counters[activeIdx];
+      store.c[id] = 0;
+      writeJSON(COUNT_KEY, store);
+      c.querySelector('.counter-n').textContent = '0';
+      c.style.setProperty('--p', 0);
+      c.classList.remove('done');
+      syncDock();
+      if (navigator.vibrate) navigator.vibrate([30, 50, 30]);
+    }, 600);
+  });
+  const cancelPress = () => clearTimeout(pressTimer);
+  dock.addEventListener('pointerup', cancelPress);
+  dock.addEventListener('pointercancel', cancelPress);
+  dock.addEventListener('contextmenu', e => e.preventDefault());
 }
 
-/* ── Progress line, reveal, and remembering the reading place ── */
+/* ── Recite mode ──────────────────────────────────────── */
+let wakeLock = null;
+async function requestWakeLock() {
+  try { wakeLock = await navigator.wakeLock.request('screen'); } catch {}
+}
+function releaseWakeLock() {
+  if (wakeLock) { wakeLock.release().catch(() => {}); wakeLock = null; }
+}
+
+function initRecite() {
+  const btn = document.getElementById('recite-btn');
+  if (!btn) return;
+
+  const set = on => {
+    prefs.recite = on;
+    writeJSON(PREFS_KEY, prefs);
+    root.classList.toggle('recite', on);
+    btn.setAttribute('aria-pressed', String(on));
+    document.getElementById('settings').hidden = true;
+    document.getElementById('settings-btn').setAttribute('aria-expanded', 'false');
+    if (on) requestWakeLock(); else releaseWakeLock();
+  };
+  btn.addEventListener('click', () => set(!root.classList.contains('recite')));
+  if (prefs.recite) set(true);
+
+  const bar = document.querySelector('.bar');
+  const panel = document.getElementById('settings');
+  let lastY = scrollY, barHidden = false;
+  addEventListener('scroll', () => {
+    const dy = scrollY - lastY;
+    lastY = scrollY;
+    if (!root.classList.contains('recite') || !panel.hidden) {
+      if (barHidden) { bar.classList.remove('bar-hidden'); barHidden = false; }
+      return;
+    }
+    if (dy > 8 && scrollY > 100 && !barHidden) { bar.classList.add('bar-hidden'); barHidden = true; }
+    else if (dy < -4 && barHidden) { bar.classList.remove('bar-hidden'); barHidden = false; }
+  }, { passive: true });
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && root.classList.contains('recite')) requestWakeLock();
+  });
+}
+
+/* ── Go to page ───────────────────────────────────────── */
+function initGoToPage() {
+  const map = window.PAGE_MAP;
+  if (!map) return;
+
+  const resolve = n => {
+    n = Math.max(1, Math.min(140, Math.floor(n)));
+    for (const [last, slug] of map) {
+      if (n <= last) return (slug === '.' ? 'index.html' : slug + '.html') + '#p' + n;
+    }
+    return null;
+  };
+
+  const p = new URLSearchParams(location.search).get('p');
+  if (p && !isNaN(p)) {
+    const target = resolve(Number(p));
+    if (target) {
+      // The host may serve sections without the .html suffix, so compare names with it stripped.
+      const here = (location.pathname.split('/').pop() || 'index').replace(/\.html$/, '');
+      const [file, hash] = target.split('#');
+      if (here === file.replace(/\.html$/, '')) {
+        history.replaceState(null, '', location.pathname + '#' + hash);
+        const el = document.getElementById(hash);
+        if (el) requestAnimationFrame(() => el.scrollIntoView());
+      } else {
+        location.replace(target);
+        return;
+      }
+    }
+  }
+
+  const input = document.getElementById('goto-page');
+  const goBtn = document.getElementById('goto-btn');
+  if (!input || !goBtn) return;
+
+  const go = () => {
+    const n = Number(input.value);
+    if (!n || n < 1 || n > 140) return;
+    const target = resolve(n);
+    if (target) location.href = target;
+  };
+  goBtn.addEventListener('click', go);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); go(); } });
+
+  addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.key === 'g') {
+      e.preventDefault();
+      const panel = document.getElementById('settings');
+      if (panel.hidden) document.getElementById('settings-btn').click();
+      input.focus();
+      input.select();
+    }
+  });
+}
+
+/* ── Progress, reveal, and reading place ──────────────── */
 function initReading() {
   const bar = document.querySelector('.progress span');
   const folios = [...document.querySelectorAll('.text .folio')];
@@ -196,6 +364,8 @@ async function verifyOfflineCopy() {
 document.addEventListener('DOMContentLoaded', () => {
   initSettings();
   initCounters();
+  initRecite();
+  initGoToPage();
   initReading();
   initResume();
   initOffline();
